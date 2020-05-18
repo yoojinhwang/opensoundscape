@@ -33,10 +33,10 @@ def sci_to_xc_common(scientific):
     return name_table_sci_idx.at[scientific,'xc_common'] 
 
 def common_to_sci(common):
-    common = common.lower().replace(' ','').replace('-','')
+    common = common.lower().replace(' ','').replace('_','').replace('-','')
     return name_table_com_idx.at[common,'scientific']
 
 def bn_common_to_sci(common):
-    common = common.lower().replace(' ','').replace('-','')
+    common = common.lower().replace(' ','').replace('_','').replace('-','')
     return name_table_bn_com_idx.at[common,'scientific']
 

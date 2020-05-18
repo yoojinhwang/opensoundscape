@@ -5,6 +5,7 @@ from sklearn.preprocessing import MinMaxScaler
 import numpy as np
 from time import time as timer
 import os
+from warnings import warn
 
 #local imports
 from opensoundscape.helpers import isNan, bound
@@ -28,20 +29,25 @@ def calculate_pulse_score(amplitude, sample_frequency_of_spec, pulserate_range, 
     max_pxx = np.max(pxx_bandpassed)
     
     if(plot): #show where on the plot we are looking for a peak with vetical lines
+        
         #check if a matplotlib backend is available 
         import os
         if os.environ.get('MPLBACKEND') is None:
             import warnings
             warnings.warn("MPLBACKEND is 'None' in os.environ. Skipping plot.")
-        else:
+        else: #we should be fine to plot in-line
             from matplotlib import pyplot as plt
             from time import time 
             print(f"peak freq: {f[np.argmax(pxx)]}")
             plt.plot(f,pxx)
-#             plt.xlim([0,100])
-#             plt.ylim([0,.001])
             plt.plot([pulserate_range[0],pulserate_range[0]],[0,max_pxx])
             plt.plot([pulserate_range[1],pulserate_range[1]],[0,max_pxx])
+            f_bandpassed = [fr for fr in f if min_rate<fr<max_rate]
+            plt.scatter(f_bandpassed[np.argmax(pxx_bandpassed)],max(pxx_bandpassed),label='peak in search range')
+            plt.xlabel('pulse rate (Hz)')
+            plt.ylabel('signal strength')
+            plt.title('pulse rate plot')
+            plt.legend()
             plt.show()
 
     return max_pxx
@@ -49,8 +55,10 @@ def calculate_pulse_score(amplitude, sample_frequency_of_spec, pulserate_range, 
 def pulse_finder(spectrogram, freq_range, pulserate_range, window_len, rejection_bands=None, plot=False):
     '''pulse rate method for repeated pulse calls
     
-    look in a box of frequency and pulse-rate, score on amplitude of fft of smooth signal amplitude
-    divides the audio into segments of length window_len
+    create an amplitude signal by adding freq_range pixels and subracting rejection_bands pixels
+    calculate the power spectral density, and return the highest value within a range of pulse-rates
+    
+    divides the audio into segments of length window_len. remainder at the end of the signal is discarded. 
     
     args:
         spectrogram: opensoundscape.Spectrogram object 
@@ -67,9 +75,9 @@ def pulse_finder(spectrogram, freq_range, pulserate_range, window_len, rejection
     # Make a 1d amplitude signal in a frequency range, subtracting energy in rejection bands
     amplitude = spectrogram.net_amplitude(freq_range,rejection_bands)
     
-    #next we split the spec into "windows" to analyze separately: (no overlap for now)
+    #next we split the signal into "windows" to analyze separately: (no overlap for now)
     sample_frequency_of_spec = (len(spectrogram.times)-1)/(spectrogram.times[-1]-spectrogram.times[0]) #in Hz, ie delta-t between consecutive pixels
-    n_samples_per_window = int(window_len * sample_frequency_of_spec ) 
+    n_samples_per_window = int(window_len * sample_frequency_of_spec )
     signal_len = len(amplitude)
     
     start_sample = 0
@@ -77,15 +85,11 @@ def pulse_finder(spectrogram, freq_range, pulserate_range, window_len, rejection
     window_start_times = []
     
     #step through the file, analyzing in pieces that are window_len long, saving scores and start times for each window
-    while start_sample + n_samples_per_window < signal_len -1:
-        ta = timer()
+    while start_sample + n_samples_per_window <= signal_len:
         
-        end_sample = start_sample + n_samples_per_window
-        if end_sample < signal_len:
-            window = amplitude[start_sample : end_sample ]
-        else:
-            final_start_sample = max(0, signal_len-n_samples_per_window)
-            window = amplitude[final_start_sample : signal_len]
+        #extract window (slice) from signal
+        end_sample_exclusive = start_sample + n_samples_per_window
+        window = amplitude[start_sample : end_sample_exclusive ]
             
         # Make Pxx (Power spectral density or power spectrum of x) and find max
         pulse_score = calculate_pulse_score(window,sample_frequency_of_spec,pulserate_range, plot)
@@ -95,7 +99,7 @@ def pulse_finder(spectrogram, freq_range, pulserate_range, window_len, rejection
         window_start_times.append(start_sample/sample_frequency_of_spec)
         
         #update start_sample
-        start_sample = end_sample #end sample was excluded so use it as first sample in next window
+        start_sample = end_sample_exclusive #end sample was not included so use it as first sample in next window
         
     return pulse_scores, window_start_times
 
@@ -146,6 +150,7 @@ def pulse_finder_species_set(spec, species_df, window_len = 'from_df', plot=Fals
     species_df['score'] = [ [] for i in range(len(species_df))]
     species_df['t'] = [ [] for i in range(len(species_df))]
     species_df['max_score'] = [np.nan for i in range(len(species_df))]
+    species_df['time_of_max_score'] = [np.nan for i in range(len(species_df))]
     
     for i, row in species_df.iterrows(): 
                 
@@ -180,11 +185,14 @@ def pulse_finder_species_set(spec, species_df, window_len = 'from_df', plot=Fals
         pulse_scores, window_start_times = pulse_finder(spec, freq_range, pulserate_range, window_len, rejection_bands, plot)
         
         #add the scores to the species df
-        species_df.at[i,'score'] = pulse_scores
-        species_df.at[i,'t'] = window_start_times
-        species_df.at[i,'max_score'] = max(pulse_scores)
-        species_df.at[i,'time_of_max_score'] = window_start_times[np.argmax(pulse_scores)]
-        
+        if len(pulse_scores)>0:
+            species_df.at[i,'score'] = pulse_scores
+            species_df.at[i,'t'] = window_start_times
+            species_df.at[i,'max_score'] = max(pulse_scores)
+            species_df.at[i,'time_of_max_score'] = window_start_times[np.argmax(pulse_scores)]
+        else: 
+            warn('zero windows analyzed. signal length was less than window length?')
+            
     return species_df
 
 def summarize_top_scores(audio_files, list_of_result_dfs, scale_factor=1.0):

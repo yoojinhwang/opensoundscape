@@ -173,7 +173,7 @@ def mixdown(files_to_mix,out_dir,mix_name,levels=None,duration='longest',verbose
     
     return response
 
-def mixdown_with_delays(files_to_mix,destination,delays=None, levels=None,duration='first',verbose=0,create_txt_file=False):
+def mixdown_with_delays(files_to_mix,destination,delays=None,levels=None,duration='first',verbose=0,create_txt_file=False):
     """use ffmpeg to mixdown a set of audio files, each starting at a specified time (padding beginnings with zeros)
     
     parameters:
@@ -202,7 +202,7 @@ def mixdown_with_delays(files_to_mix,destination,delays=None, levels=None,durati
     n_inputs = len(files_to_mix)
     
     #format list of input files for ffmpeg (will look like -i file1.mp3 -i file2.wav)
-    input_list = '-i ' + ' -i '.join(files_to_mix)
+    input_list = '-i ' + ' \n -i '.join(files_to_mix)
     
     #overwrite existing file by default? 'y' for yes, otherwise '' behavior is to not overwrite
     overwrite = '-y'
@@ -215,17 +215,26 @@ def mixdown_with_delays(files_to_mix,destination,delays=None, levels=None,durati
     #if no delays are provided, they are all set to 0 (we could just skip it but syntax would be confusing)
     if delays is None:
         delays = np.zeros(n_inputs)
-    
-    #take each input {i}, delay it by delays[i], give the output a name
+    else: 
+        delays = [d*1000 for d in delays] #convert from seconds to milliseconds
+ 
+    #specify volumes of files to mix
     #0 refers to first input file
+    #will look like [s0]volume=0.8[s0];[0:a]volume=0.8[a0]
+    if levels is None:
+        levels = [1.0]*n_inputs
+    volume_cmd = ''.join([ f'[{i}]volume={level}[a{i}]; \n' for i, level in enumerate(levels)] )
+        
+    #take each input after volume effect [a0], delay it by delays[i], give the output a name [s0]
     #here output of each adelay command is named s{i} (eg s0 for fist input)
-    #will look like [0]adelay=0[s0];[1]adelay=1000[s1];
-    delay_cmd = ''.join([ f'[{i}]adelay={delay}[s{i}];' for i, delay in enumerate(delays)] ) #for stereo, delay each chanel like adelay={delay}|{delay}
+    #will look like [a0]adelay=0[s0];[a1]adelay=1000[s1];
+    delay_cmd = ''.join([ f'[a{i}]adelay={delay}[s{i}]; \n' for i, delay in enumerate(delays)] ) #for stereo, delay each chanel like adelay={delay}|{delay}
     
     #list of the outputs of adelay (these are the files we want to mixdown, so this is the input to amix)
     #will look like [s0][s1][s2]
     files_to_mix = ''.join([f'[s{i}]' for i in range(n_inputs)]) 
     
+        
     #mixdown command 
     #take the files_to_mix, use amix to combine them into [mixdown]. Final duration is an option 'longest','shortest','first'
     #will look like [s0][s1]amix=inputs=2:duration=first[mixdown]
@@ -234,10 +243,10 @@ def mixdown_with_delays(files_to_mix,destination,delays=None, levels=None,durati
 
     #compile the full ffmpeg command: 
     #take inputs, apply delays, mix them together, and save to destination
-    cmd = f'ffmpeg {options} {input_list} -filter_complex "{delay_cmd}{mix_cmd}" -map {mixdown_result} {destination}'
+    cmd = f'ffmpeg {options} \n {input_list} \n -filter_complex "{volume_cmd}{delay_cmd}{mix_cmd}" \n -map {mixdown_result} {destination}'
     
     if verbose>0:
-        print(cmd)
+        print(cmd)#.replace(' \n',''))
         
     if create_txt_file:
         #we write a list of all input files to this mix into a .txt file with same name as .mp3. file
@@ -246,7 +255,8 @@ def mixdown_with_delays(files_to_mix,destination,delays=None, levels=None,durati
         with open(metadata_file,'w') as file:
             file.write(metadata)
     
-    return run_command(cmd)
+    # we included line breaks for readability, but we remove them for the actual os command
+    return run_command(cmd.replace(' \n',''))
 
 # #move to scripts
 # def create_mixdowns(in_files,out_dir,files_per_mix):
@@ -261,7 +271,7 @@ def mixdown_with_delays(files_to_mix,destination,delays=None, levels=None,durati
 #     print(f'logs contain list of origin files for each mix')
 
 #     if len(in_files)<1:
-#         print("didn't recieve any files!")
+#         print("didn't receive any files!")
 
 #     random.shuffle(in_files)
 

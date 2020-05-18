@@ -11,11 +11,15 @@ from PIL import Image
 
 from opensoundscape.helpers import binarize
 
-def predict(model,img_paths, img_shape, batch_size = 1, num_workers = 12, apply_softmax = True):
+def predict(model,img_paths, img_shape, batch_size = 1, num_workers = 1, apply_softmax = True):
     """ get multi-class model predictions from a pytorch model for a set of images
     
     model: a pytorch model object (not path to weights)
     img_paths: a list of paths to RGB png spectrograms
+    img_shape: [x,y] shape of images expected by model
+    batch_size=1: parallelization parameter (see torch.utils.data.DataLoader)
+    num_workers=1: parallelization parameter (see torch.utils.data.DataLoader)
+    apply_softmax=True: if True, puts output of network through a softmax layer
     
     returns: df of predictions indexed by file (columns=class names? #TODO)"""
     class PredictionDataset(torch.utils.data.Dataset):
