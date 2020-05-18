@@ -1,507 +1,507 @@
-scientific,xc_common,bn_code,bn_common,bn_mapping_in_xc_dataset,relationship,ibp_alpha
-dendrocygna-autumnalis,blackbelliedwhistlingduck,bbwduc,blackbelliedwhistlingduck,dendrocygna-autumnalis,,BBWD
-anser-caerulescens,snowgoose,snogoo,snowgoose,anser-caerulescens,,SNGO
-anser-albifrons,greaterwhitefrontedgoose,gwfgoo,greaterwhitefrontedgoose,anser-albifrons,,GWFG
-branta-bernicla,brantgoose,brant,brant,branta-bernicla,"Same species, different common name",BRAN
-branta-hutchinsii,cacklinggoose,cacgoo1,cacklinggoose,branta-hutchinsii,,CACG
-branta-canadensis,canadagoose,cangoo,canadagoose,branta-canadensis,,CANG
-cygnus-olor,muteswan,mutswa,muteswan,cygnus-olor,,MUSW
-cygnus-buccinator,trumpeterswan,truswa,trumpeterswan,cygnus-buccinator,,TRUS
-cygnus-columbianus,tundraswan,tunswa,tundraswan,cygnus-columbianus,,TUSW
-alopochen-aegyptiaca,egyptiangoose,egygoo,egyptiangoose,alopochen-aegyptiaca,,EGGO
-aix-sponsa,woodduck,wooduc,woodduck,aix-sponsa,,WODU
-spatula-discors,bluewingedteal,buwtea,bluewingedteal,spatula-discors,,BWTE
-spatula-clypeata,northernshoveler,norsho,northernshoveler,spatula-clypeata,,NSHO
-mareca-strepera,gadwall,gadwal,gadwall,mareca-strepera,,GADW
-mareca-penelope,eurasianwigeon,eurwig,eurasianwigeon,mareca-penelope,,EUWI
-anas-platyrhynchos,mallard,mallar3,mallard,anas-platyrhynchos,,MALL
-anas-carolinensis,greenwingedteal,,,,XC split with only one species in the ABA area; BirdNet's name for the complex (anas-crecca) refers to the XC species outside the ABA area,
-somateria-mollissima,commoneider,comeid,commoneider,somateria-mollissima,,COEI
-clangula-hyemalis,longtailedduck,lotduc,longtailedduck,clangula-hyemalis,,LTDU
-bucephala-clangula,commongoldeneye,comgol,commongoldeneye,bucephala-clangula,,COGO
-mergus-merganser,commonmerganser,commer,commonmerganser,mergus-merganser,,COME
-ortalis-vetula,plainchachalaca,placha,plainchachalaca,ortalis-vetula,,PLCH
-oreortyx-pictus,mountainquail,mouqua,mountainquail,oreortyx-pictus,,MOUQ
-colinus-virginianus,northernbobwhite,norbob,northernbobwhite,colinus-virginianus,,NOBO
-callipepla-squamata,scaledquail,scaqua,scaledquail,callipepla-squamata,,SCQU
-callipepla-californica,californiaquail,calqua,californiaquail,callipepla-californica,,CAQU
-callipepla-gambelii,gambelsquail,gamqua,gambelsquail,callipepla-gambelii,,GAQU
-francolinus-francolinus,blackfrancolin,blkfra,blackfrancolin,francolinus-francolinus,,BLFR
-perdix-perdix,graypartridge,grypar,graypartridge,perdix-perdix,,GRAP
-gallus-gallus,redjunglefowl,redjun,redjunglefowl,gallus-gallus,,REJU
-phasianus-colchicus,commonpheasant,rinphe,ringneckedpheasant,phasianus-colchicus,"Same species, different common name",RNEP
-centrocercus-urophasianus,sagegrouse,saggro,greatersagegrouse,centrocercus-urophasianus,"Same species, different common name",GRSG
-lagopus-lagopus,willowptarmigan,wilpta,willowptarmigan,lagopus-lagopus,,WIPT
-lagopus-muta,rockptarmigan,rocpta1,rockptarmigan,lagopus-muta,,ROPT
-lagopus-leucura,whitetailedptarmigan,whtpta1,whitetailedptarmigan,lagopus-leucura,,WTPT
-dendragapus-fuliginosus,sootygrouse,soogro1,sootygrouse,dendragapus-fuliginosus,,SOGR
-tympanuchus-phasianellus,sharptailedgrouse,shtgro,sharptailedgrouse,tympanuchus-phasianellus,,STGR
-tympanuchus-cupido,greaterprairiechicken,grpchi,greaterprairiechicken,tympanuchus-cupido,,GRPC
-meleagris-gallopavo,wildturkey,wiltur,wildturkey,meleagris-gallopavo,,WITU
-tachybaptus-dominicus,leastgrebe,leagre,leastgrebe,tachybaptus-dominicus,,LEGR
-podilymbus-podiceps,piedbilledgrebe,pibgre,piedbilledgrebe,podilymbus-podiceps,,PBGR
-podiceps-auritus,hornedgrebe,horgre,hornedgrebe,podiceps-auritus,,HOGR
-podiceps-grisegena,redneckedgrebe,rengre,redneckedgrebe,podiceps-grisegena,,RNGR
-podiceps-nigricollis,blackneckedgrebe,eargre,earedgrebe,podiceps-nigricollis,"Same species, different common name",EAGR
-aechmophorus-occidentalis,westerngrebe,wesgre,westerngrebe,aechmophorus-occidentalis,,WEGR
-columba-livia,rockdove,rocpig,rockpigeon,columba-livia,"Same species, different common name",ROPI
-patagioenas-flavirostris,redbilledpigeon,rebpig1,redbilledpigeon,patagioenas-flavirostris,,RBPI
-patagioenas-fasciata,bandtailedpigeon,batpig1,bandtailedpigeon,patagioenas-fasciata,,BTPI
-streptopelia-decaocto,eurasiancollareddove,eucdov,eurasiancollareddove,streptopelia-decaocto,,EUCD
-spilopelia-chinensis,spotteddove,spodove,spotteddove,spilopelia-chinensis,"Same species, different scientific name",
-geopelia-striata,zebradove,zebdov,zebradove,geopelia-striata,,ZEBD
-columbina-inca,incadove,incdov,incadove,columbina-inca,,INDO
-columbina-passerina,commongrounddove,cogdov,commongrounddove,columbina-passerina,,COGD
-leptotila-verreauxi,whitetippeddove,whtdov,whitetippeddove,leptotila-verreauxi,,WTDO
-zenaida-asiatica,whitewingeddove,whwdov,whitewingeddove,zenaida-asiatica,,WWDO
-zenaida-macroura,mourningdove,moudov,mourningdove,zenaida-macroura,,MODO
-coccyzus-americanus,yellowbilledcuckoo,yebcuc,yellowbilledcuckoo,coccyzus-americanus,,YBCU
-coccyzus-erythropthalmus,blackbilledcuckoo,bkbcuc,blackbilledcuckoo,coccyzus-erythropthalmus,,BBCU
-geococcyx-californianus,greaterroadrunner,greroa,greaterroadrunner,geococcyx-californianus,,GRRO
-crotophaga-sulcirostris,groovebilledani,grbani,groovebilledani,crotophaga-sulcirostris,,GBAN
-chordeiles-acutipennis,lessernighthawk,lesnig,lessernighthawk,chordeiles-acutipennis,,LENI
-chordeiles-minor,commonnighthawk,comnig,commonnighthawk,chordeiles-minor,,CONI
-nyctidromus-albicollis,pauraque,compau,commonpauraque,nyctidromus-albicollis,"Same species, different common name",COPA
-phalaenoptilus-nuttallii,commonpoorwill,compoo,commonpoorwill,phalaenoptilus-nuttallii,,COPO
-antrostomus-carolinensis,chuckwillswidow,chwwid,chuckwillswidow,antrostomus-carolinensis,,CWWI
-antrostomus-vociferus,easternwhippoorwill,whip-p1,easternwhippoorwill,antrostomus-vociferus,,EWPW
-antrostomus-arizonae,mexicanwhippoorwill,souwpw1,mexicanwhippoorwill,antrostomus-arizonae,,MWPW
-eugenes-fulgens,rivolishummingbird,maghum1,rivolishummingbird,eugenes-fulgens,,RIHU
-lampornis-clemenciae,bluethroatedmountaingem,buthum,bluethroatedhummingbird,lampornis-clemenciae,"Same species, different common name",BTHH
-calypte-anna,annashummingbird,annhum,annashummingbird,calypte-anna,,ANHU
-selasphorus-platycercus,broadtailedhummingbird,brthum,broadtailedhummingbird,selasphorus-platycercus,,BTAH
-selasphorus-rufus,rufoushummingbird,rufhum,rufoushummingbird,selasphorus-rufus,,RUHU
-amazilia-violiceps,violetcrownedhummingbird,vichum,violetcrownedhummingbird,amazilia-violiceps,,VCHU
-laterallus-jamaicensis,blackrail,blkrai,blackrail,laterallus-jamaicensis,,BLRA
-rallus-obsoletus,ridgwaysrail,ridrai1,ridgwaysrail,rallus-obsoletus,,RIRA
-rallus-elegans,kingrail,kinrai4,kingrail,rallus-elegans,,KIRA
-rallus-limicola,virginiarail,virrai,virginiarail,rallus-limicola,,VIRA
-porzana-carolina,sora,sora,sora,porzana-carolina,,SORA
-porphyrio-martinica,purplegallinule,purgal2,purplegallinule,porphyrio-martinica,,
-gallinula-galeata,commongallinule,comgal1,commongallinule,gallinula-galeata,,COGA
-fulica-americana,americancoot,y00475,americancoot,fulica-americana,,AMCO
-aramus-guarauna,limpkin,limpki,limpkin,aramus-guarauna,,LIMP
-antigone-canadensis,sandhillcrane,sancra,sandhillcrane,antigone-canadensis,,SACR
-himantopus-mexicanus,blackneckedstilt,bknsti,blackneckedstilt,himantopus-mexicanus,,BNST
-recurvirostra-americana,americanavocet,ameavo,americanavocet,recurvirostra-americana,,AMAV
-pluvialis-squatarola,grayplover,bkbplo,blackbelliedplover,pluvialis-squatarola,"Same species, different common name",BBPL
-pluvialis-dominica,americangoldenplover,amgplo,americangoldenplover,pluvialis-dominica,,AMGP
-charadrius-semipalmatus,semipalmatedplover,semplo,semipalmatedplover,charadrius-semipalmatus,,SEPL
-charadrius-vociferus,killdeer,killde,killdeer,charadrius-vociferus,,KILL
-bartramia-longicauda,uplandsandpiper,uplsan,uplandsandpiper,bartramia-longicauda,,UPSA
-numenius-phaeopus,whimbrel,whimbr,whimbrel,numenius-phaeopus,,WHIM
-numenius-americanus,longbilledcurlew,lobcur,longbilledcurlew,numenius-americanus,,LBCU
-limosa-fedoa,marbledgodwit,margod,marbledgodwit,limosa-fedoa,,MAGO
-arenaria-interpres,ruddyturnstone,rudtur,ruddyturnstone,arenaria-interpres,,RUTU
-calidris-canutus,redknot,redkno,redknot,calidris-canutus,,REKN
-calidris-himantopus,stiltsandpiper,stisan,stiltsandpiper,calidris-himantopus,,STSA
-calidris-alba,sanderling,sander,sanderling,calidris-alba,,SAND
-calidris-alpina,dunlin,dunlin,dunlin,calidris-alpina,,DUNL
-calidris-maritima,purplesandpiper,pursan,purplesandpiper,calidris-maritima,,PUSA
-calidris-bairdii,bairdssandpiper,baisan,bairdssandpiper,calidris-bairdii,,BASA
-calidris-minutilla,leastsandpiper,leasan,leastsandpiper,calidris-minutilla,,LESA
-calidris-fuscicollis,whiterumpedsandpiper,whrsan,whiterumpedsandpiper,calidris-fuscicollis,,WRSA
-calidris-melanotos,pectoralsandpiper,pecsan,pectoralsandpiper,calidris-melanotos,,PESA
-calidris-pusilla,semipalmatedsandpiper,semsan,semipalmatedsandpiper,calidris-pusilla,,SESA
-limnodromus-scolopaceus,longbilleddowitcher,lobdow,longbilleddowitcher,limnodromus-scolopaceus,,LBDO
-scolopax-minor,americanwoodcock,amewoo,americanwoodcock,scolopax-minor,,AMWO
-gallinago-delicata,wilsonssnipe,wilsni1,wilsonssnipe,gallinago-delicata,,WISN
-actitis-macularius,spottedsandpiper,sposan,spottedsandpiper,actitis-macularius,,SPSA
-tringa-solitaria,solitarysandpiper,solsan,solitarysandpiper,tringa-solitaria,,SOSA
-tringa-flavipes,lesseryellowlegs,lesyel,lesseryellowlegs,tringa-flavipes,,LEYE
-tringa-semipalmata,willet,willet1,willet,tringa-semipalmata,,WILL
-tringa-melanoleuca,greateryellowlegs,greyel,greateryellowlegs,tringa-melanoleuca,,GRYE
-tringa-glareola,woodsandpiper,woosan,woodsandpiper,tringa-glareola,,WOSA
-phalaropus-lobatus,redneckedphalarope,renpha,redneckedphalarope,phalaropus-lobatus,,RNPH
-phalaropus-fulicarius,redphalarope,redpha1,redphalarope,phalaropus-fulicarius,,REPH
-stercorarius-parasiticus,parasiticjaeger,parjae,parasiticjaeger,stercorarius-parasiticus,,PAJA
-stercorarius-longicaudus,longtailedjaeger,lotjae,longtailedjaeger,stercorarius-longicaudus,,LTJA
-uria-aalge,commonmurre,commur,commonmurre,uria-aalge,,COMU
-alca-torda,razorbill,razorb,razorbill,alca-torda,,RAZO
-fratercula-arctica,atlanticpuffin,atlpuf,atlanticpuffin,fratercula-arctica,,ATPU
-rissa-tridactyla,blackleggedkittiwake,bklkit,blackleggedkittiwake,rissa-tridactyla,,BLKI
-chroicocephalus-philadelphia,bonapartesgull,bongul,bonapartesgull,chroicocephalus-philadelphia,,BOGU
-leucophaeus-atricilla,laughinggull,laugul,laughinggull,leucophaeus-atricilla,,LAGU
-leucophaeus-pipixcan,franklinsgull,fragul,franklinsgull,leucophaeus-pipixcan,,FRGU
-larus-heermanni,heermannsgull,heegul,heermannsgull,larus-heermanni,,HEEG
-larus-canus,mewgull,mewgul,mewgull,larus-canus,,MEGU
-larus-delawarensis,ringbilledgull,ribgul,ringbilledgull,larus-delawarensis,,RBGU
-larus-californicus,californiagull,calgul,californiagull,larus-californicus,,CAGU
-larus-fuscus,lesserblackbackedgull,lbbgul,lesserblackbackedgull,larus-fuscus,,LBBG
-larus-glaucescens,glaucouswingedgull,glwgul,glaucouswingedgull,larus-glaucescens,,GWGU
-larus-hyperboreus,glaucousgull,glagul,glaucousgull,larus-hyperboreus,,GLGU
-larus-marinus,greatblackbackedgull,gbbgul,greatblackbackedgull,larus-marinus,,GBBG
-gygis-alba,whitetern,whiter,whitetern,gygis-alba,,WHTT
-sternula-antillarum,leasttern,leater1,leasttern,sternula-antillarum,,LETE
-gelochelidon-nilotica,gullbilledtern,gubter1,gullbilledtern,gelochelidon-nilotica,,GBTE
-hydroprogne-caspia,caspiantern,caster1,caspiantern,hydroprogne-caspia,,CATE
-chlidonias-niger,blacktern,blkter,blacktern,chlidonias-niger,,BLTE
-sterna-dougallii,roseatetern,roster,roseatetern,sterna-dougallii,,ROST
-sterna-hirundo,commontern,comter,commontern,sterna-hirundo,,COTE
-sterna-paradisaea,arctictern,arcter,arctictern,sterna-paradisaea,,ARTE
-sterna-forsteri,forsterstern,forter,forsterstern,sterna-forsteri,,FOTE
-thalasseus-maximus,royaltern,royter1,royaltern,thalasseus-maximus,,ROYT
-thalasseus-sandvicensis,sandwichtern,santer1,sandwichtern,thalasseus-sandvicensis,,SATE
-thalasseus-elegans,eleganttern,eleter1,eleganttern,thalasseus-elegans,,ELTE
-rynchops-niger,blackskimmer,blkski,blackskimmer,rynchops-niger,,BLSK
-gavia-stellata,redthroatedloon,retloo,redthroatedloon,gavia-stellata,,RTLO
-gavia-arctica,blackthroatedloon,arcloo,arcticloon,gavia-arctica,"Same species, different common name",ARLO
-gavia-immer,commonloon,comloo,commonloon,gavia-immer,,COLO
-phoebastria-immutabilis,laysanalbatross,layalb,laysanalbatross,phoebastria-immutabilis,,LAAL
-phoebastria-nigripes,blackfootedalbatross,bkfalb,blackfootedalbatross,phoebastria-nigripes,,BFAL
-fulmarus-glacialis,northernfulmar,norful,northernfulmar,fulmarus-glacialis,,NOFU
-puffinus-puffinus,manxshearwater,manshe,manxshearwater,puffinus-puffinus,,MASH
-morus-bassanus,northerngannet,norgan,northerngannet,morus-bassanus,,NOGA
-phalacrocorax-brasilianus,neotropiccormorant,neocor,neotropiccormorant,phalacrocorax-brasilianus,,NECO
-phalacrocorax-auritus,doublecrestedcormorant,doccor,doublecrestedcormorant,phalacrocorax-auritus,,DCCO
-phalacrocorax-carbo,greatcormorant,grecor,greatcormorant,phalacrocorax-carbo,,GRCO
-phalacrocorax-pelagicus,pelagiccormorant,pelcor,pelagiccormorant,phalacrocorax-pelagicus,,PECO
-botaurus-lentiginosus,americanbittern,amebit,americanbittern,botaurus-lentiginosus,,AMBI
-ixobrychus-exilis,leastbittern,leabit,leastbittern,ixobrychus-exilis,,LEBI
-ardea-herodias,greatblueheron,grbher3,greatblueheron,ardea-herodias,,GBHE
-ardea-alba,greategret,greegr,greategret,ardea-alba,,GREG
-bubulcus-ibis,westerncattleegret,categr,cattleegret,bubulcus-ibis,XC split with only one species in the ABA area; BirdNet's name for the complex (bubulcus-ibis) refers to the XC species INSIDE the ABA area,CAEG
-nycticorax-nycticorax,blackcrownednightheron,bcnher,blackcrownednightheron,nycticorax-nycticorax,,BCNH
-plegadis-chihi,whitefacedibis,whfibi,whitefacedibis,plegadis-chihi,,WFIB
-pandion-haliaetus,westernosprey,osprey,osprey,pandion-haliaetus,XC split with only one species in the ABA area; BirdNet's name for the complex (pandion-haliaetus) refers to the XC species INSIDE the ABA area,OSPR
-elanoides-forficatus,swallowtailedkite,swtkit,swallowtailedkite,elanoides-forficatus,,STKI
-aquila-chrysaetos,goldeneagle,goleag,goldeneagle,aquila-chrysaetos,,GOEA
-accipiter-cooperii,coopershawk,coohaw,coopershawk,accipiter-cooperii,,COHA
-accipiter-gentilis,northerngoshawk,norgos,northerngoshawk,accipiter-gentilis,,NOGO
-rostrhamus-sociabilis,snailkite,snakit,snailkite,rostrhamus-sociabilis,,SNKI
-buteo-plagiatus,grayhawk,gryhaw2,grayhawk,buteo-plagiatus,,GRHA
-buteo-lineatus,redshoulderedhawk,reshaw,redshoulderedhawk,buteo-lineatus,,RSHA
-buteo-platypterus,broadwingedhawk,brwhaw,broadwingedhawk,buteo-platypterus,,BWHA
-buteo-jamaicensis,redtailedhawk,rethaw,redtailedhawk,buteo-jamaicensis,,RTHA
-tyto-furcata,americanbarnowl,,,,XC split with only one species in the ABA area; BirdNet's scientific name for the complex (tyto-alba) refers to the XC species outside the ABA area,
-psiloscops-flammeolus,flammulatedowl,flaowl,flammulatedowl,psiloscops-flammeolus,,FLOW
-megascops-kennicottii,westernscreechowl,wesowl1,westernscreechowl,megascops-kennicottii,,WESO
-megascops-asio,easternscreechowl,easowl1,easternscreechowl,megascops-asio,,EASO
-megascops-trichopsis,whiskeredscreechowl,whsowl1,whiskeredscreechowl,megascops-trichopsis,,WHSO
-bubo-virginianus,greathornedowl,grhowl,greathornedowl,bubo-virginianus,,GHOW
-glaucidium-californicum,northernpygmyowl,,,,XC split with only one species in the ABA area; BirdNet's name for the complex (glaucidium-gnoma) refers to the XC species outside the ABA area,
-micrathene-whitneyi,elfowl,elfowl,elfowl,micrathene-whitneyi,,ELOW
-athene-cunicularia,burrowingowl,burowl,burrowingowl,athene-cunicularia,,BUOW
-strix-occidentalis,spottedowl,spoowl,spottedowl,strix-occidentalis,,SPOW
-strix-varia,barredowl,brdowl,barredowl,strix-varia,,BADO
-strix-nebulosa,greatgrayowl,grgowl,greatgrayowl,strix-nebulosa,,GGOW
-asio-otus,longearedowl,loeowl,longearedowl,asio-otus,,LEOW
-asio-flammeus,shortearedowl,sheowl,shortearedowl,asio-flammeus,,SEOW
-aegolius-funereus,borealowl,borowl,borealowl,aegolius-funereus,,BOOW
-aegolius-acadicus,northernsawwhetowl,nswowl,northernsawwhetowl,aegolius-acadicus,,NSWO
-trogon-elegans,eleganttrogon,eletro,eleganttrogon,trogon-elegans,,ELTR
-megaceryle-torquata,ringedkingfisher,rinkin1,ringedkingfisher,megaceryle-torquata,,RIKI
-megaceryle-alcyon,beltedkingfisher,belkin1,beltedkingfisher,megaceryle-alcyon,,BEKI
-chloroceryle-americana,greenkingfisher,grnkin,greenkingfisher,chloroceryle-americana,,GKIN
-melanerpes-erythrocephalus,redheadedwoodpecker,rehwoo,redheadedwoodpecker,melanerpes-erythrocephalus,,RHWO
-melanerpes-formicivorus,acornwoodpecker,acowoo,acornwoodpecker,melanerpes-formicivorus,,ACWO
-melanerpes-uropygialis,gilawoodpecker,gilwoo,gilawoodpecker,melanerpes-uropygialis,,GIWO
-melanerpes-carolinus,redbelliedwoodpecker,rebwoo,redbelliedwoodpecker,melanerpes-carolinus,,RBWO
-sphyrapicus-thyroideus,williamsonssapsucker,wilsap,williamsonssapsucker,sphyrapicus-thyroideus,,WISA
-sphyrapicus-varius,yellowbelliedsapsucker,yebsap,yellowbelliedsapsucker,sphyrapicus-varius,,YBSA
-sphyrapicus-nuchalis,rednapedsapsucker,rensap,rednapedsapsucker,sphyrapicus-nuchalis,,RNSA
-sphyrapicus-ruber,redbreastedsapsucker,rebsap,redbreastedsapsucker,sphyrapicus-ruber,,RBSA
-picoides-dorsalis,americanthreetoedwoodpecker,attwoo1,americanthreetoedwoodpecker,picoides-dorsalis,,ATTW
-picoides-arcticus,blackbackedwoodpecker,bkbwoo,blackbackedwoodpecker,picoides-arcticus,,BBWO
-dryobates-pubescens,downywoodpecker,dowwoo,downywoodpecker,dryobates-pubescens,,
-dryobates-scalaris,ladderbackedwoodpecker,labwoo,ladderbackedwoodpecker,dryobates-scalaris,,
-leuconotopicus-borealis,redcockadedwoodpecker,recwoo,redcockadedwoodpecker,leuconotopicus-borealis,"Same species, different scientific name",
-leuconotopicus-villosus,hairywoodpecker,haiwoo,hairywoodpecker,leuconotopicus-villosus,"Same species, different scientific name",
-colaptes-auratus,northernflicker,norfli,northernflicker,colaptes-auratus,,NOFL
-dryocopus-pileatus,pileatedwoodpecker,pilwoo,pileatedwoodpecker,dryocopus-pileatus,,PIWO
-falco-sparverius,americankestrel,amekes,americankestrel,falco-sparverius,,AMKE
-falco-columbarius,merlin,merlin,merlin,falco-columbarius,,MERL
-falco-peregrinus,peregrinefalcon,perfal,peregrinefalcon,falco-peregrinus,,PEFA
-myiopsitta-monachus,monkparakeet,monpar,monkparakeet,myiopsitta-monachus,,MOPA
-psittacula-krameri,roseringedparakeet,rorpar,roseringedparakeet,psittacula-krameri,,RRPA
-agapornis-roseicollis,rosyfacedlovebird,peflov,rosyfacedlovebird,agapornis-roseicollis,,RFLO
-camptostoma-imberbe,northernbeardlesstyrannulet,nobtyr,northernbeardlesstyrannulet,camptostoma-imberbe,,NOBT
-myiarchus-tuberculifer,duskycappedflycatcher,ducfly,duskycappedflycatcher,myiarchus-tuberculifer,,DCFL
-myiarchus-cinerascens,ashthroatedflycatcher,astfly,ashthroatedflycatcher,myiarchus-cinerascens,,ATFL
-myiarchus-crinitus,greatcrestedflycatcher,grcfly,greatcrestedflycatcher,myiarchus-crinitus,,GCFL
-myiarchus-tyrannulus,browncrestedflycatcher,bncfly,browncrestedflycatcher,myiarchus-tyrannulus,,BCFL
-pitangus-sulphuratus,greatkiskadee,grekis,greatkiskadee,pitangus-sulphuratus,,GKIS
-myiodynastes-luteiventris,sulphurbelliedflycatcher,subfly,sulphurbelliedflycatcher,myiodynastes-luteiventris,,SBFL
-tyrannus-melancholicus,tropicalkingbird,trokin,tropicalkingbird,tyrannus-melancholicus,,TRKI
-tyrannus-couchii,couchskingbird,coukin,couchskingbird,tyrannus-couchii,,COKI
-tyrannus-vociferans,cassinskingbird,caskin,cassinskingbird,tyrannus-vociferans,,CAKI
-tyrannus-crassirostris,thickbilledkingbird,thbkin,thickbilledkingbird,tyrannus-crassirostris,,TBKI
-tyrannus-verticalis,westernkingbird,weskin,westernkingbird,tyrannus-verticalis,,WEKI
-tyrannus-tyrannus,easternkingbird,easkin,easternkingbird,tyrannus-tyrannus,,EAKI
-tyrannus-dominicensis,graykingbird,grykin,graykingbird,tyrannus-dominicensis,,GRAK
-tyrannus-forficatus,scissortailedflycatcher,sctfly,scissortailedflycatcher,tyrannus-forficatus,,STFL
-contopus-cooperi,olivesidedflycatcher,olsfly,olivesidedflycatcher,contopus-cooperi,,OSFL
-contopus-pertinax,greaterpewee,grepew,greaterpewee,contopus-pertinax,,GRPE
-contopus-sordidulus,westernwoodpewee,wewpew,westernwoodpewee,contopus-sordidulus,,WEWP
-contopus-virens,easternwoodpewee,eawpew,easternwoodpewee,contopus-virens,,EAWP
-empidonax-flaviventris,yellowbelliedflycatcher,yebfly,yellowbelliedflycatcher,empidonax-flaviventris,,YBFL
-empidonax-virescens,acadianflycatcher,acafly,acadianflycatcher,empidonax-virescens,,ACFL
-empidonax-alnorum,alderflycatcher,aldfly,alderflycatcher,empidonax-alnorum,,ALFL
-empidonax-traillii,willowflycatcher,wilfly,willowflycatcher,empidonax-traillii,,WIFL
-empidonax-minimus,leastflycatcher,leafly,leastflycatcher,empidonax-minimus,,LEFL
-empidonax-hammondii,hammondsflycatcher,hamfly,hammondsflycatcher,empidonax-hammondii,,HAFL
-empidonax-wrightii,americangrayflycatcher,gryfly,grayflycatcher,empidonax-wrightii,"Same species, different common name",GRFL
-empidonax-oberholseri,americanduskyflycatcher,dusfly,duskyflycatcher,empidonax-oberholseri,"Same species, different common name",DUFL
-empidonax-difficilis,pacificslopeflycatcher,pasfly,pacificslopeflycatcher,empidonax-difficilis,,PSFL
-empidonax-occidentalis,cordilleranflycatcher,corfly,cordilleranflycatcher,empidonax-occidentalis,,COFL
-empidonax-fulvifrons,buffbreastedflycatcher,bubfly,buffbreastedflycatcher,empidonax-fulvifrons,,BBFL
-sayornis-nigricans,blackphoebe,blkpho,blackphoebe,sayornis-nigricans,,BLPH
-sayornis-phoebe,easternphoebe,easpho,easternphoebe,sayornis-phoebe,,EAPH
-sayornis-saya,saysphoebe,saypho,saysphoebe,sayornis-saya,,SAPH
-pyrocephalus-obscurus,vermilionflycatcher,verfly,vermilionflycatcher,pyrocephalus-obscurus,"Same species, different common name",
-lanius-ludovicianus,loggerheadshrike,logshr,loggerheadshrike,lanius-ludovicianus,,LOSH
-vireo-atricapilla,blackcappedvireo,bkcvir1,blackcappedvireo,vireo-atricapilla,,BCVI
-vireo-griseus,whiteeyedvireo,whevir,whiteeyedvireo,vireo-griseus,,WEVI
-vireo-bellii,bellsvireo,belvir,bellsvireo,vireo-bellii,,BEVI
-vireo-vicinior,grayvireo,gryvir,grayvireo,vireo-vicinior,,GRVI
-vireo-huttoni,huttonsvireo,hutvir,huttonsvireo,vireo-huttoni,,HUVI
-vireo-flavifrons,yellowthroatedvireo,yetvir,yellowthroatedvireo,vireo-flavifrons,,YTVI
-vireo-cassinii,cassinsvireo,casvir,cassinsvireo,vireo-cassinii,,CAVI
-vireo-solitarius,blueheadedvireo,buhvir,blueheadedvireo,vireo-solitarius,,BHVI
-vireo-plumbeus,plumbeousvireo,plsvir,plumbeousvireo,vireo-plumbeus,,PLVI
-vireo-philadelphicus,philadelphiavireo,phivir,philadelphiavireo,vireo-philadelphicus,,PHVI
-vireo-gilvus,warblingvireo,warvir,warblingvireo,vireo-gilvus,,WAVI
-vireo-olivaceus,redeyedvireo,reevir1,redeyedvireo,vireo-olivaceus,,REVI
-vireo-altiloquus,blackwhiskeredvireo,bkwvir,blackwhiskeredvireo,vireo-altiloquus,,BWVI
-perisoreus-canadensis,grayjay,gryjay,canadajay,perisoreus-canadensis,"Same species, different common name",GRAJ
-cyanocorax-luxuosus,greenjay,grnjay,greenjay,cyanocorax-luxuosus,"Same species, different scientific name",
-gymnorhinus-cyanocephalus,pinyonjay,pinjay,pinyonjay,gymnorhinus-cyanocephalus,,PIJA
-cyanocitta-stelleri,stellersjay,stejay,stellersjay,cyanocitta-stelleri,,STJA
-cyanocitta-cristata,bluejay,blujay,bluejay,cyanocitta-cristata,,BLJA
-aphelocoma-californica,californiascrubjay,cowscj1,californiascrubjay,aphelocoma-californica,,CASJ
-aphelocoma-woodhouseii,woodhousesscrubjay,wooscj2,woodhousesscrubjay,aphelocoma-woodhouseii,,WOSJ
-aphelocoma-wollweberi,mexicanjay,mexjay4,mexicanjay,aphelocoma-wollweberi,,MEJA
-nucifraga-columbiana,clarksnutcracker,clanut,clarksnutcracker,nucifraga-columbiana,,CLNU
-pica-hudsonia,blackbilledmagpie,bkbmag1,blackbilledmagpie,pica-hudsonia,,BBMA
-pica-nuttalli,yellowbilledmagpie,yebmag,yellowbilledmagpie,pica-nuttalli,,YBMA
-corvus-brachyrhynchos,americancrow,amecro,americancrow,corvus-brachyrhynchos,,AMCR
-corvus-caurinus,northwesterncrow,norcro,northwesterncrow,corvus-caurinus,,NOCR
-corvus-ossifragus,fishcrow,fiscro,fishcrow,corvus-ossifragus,,FICR
-corvus-corax,northernraven,comrav,commonraven,corvus-corax,"Same species, different common name",CORA
-alauda-arvensis,eurasianskylark,skylar,eurasianskylark,alauda-arvensis,,EUSK
-eremophila-alpestris,hornedlark,horlar,hornedlark,eremophila-alpestris,,HOLA
-progne-subis,purplemartin,purmar,purplemartin,progne-subis,,PUMA
-tachycineta-bicolor,treeswallow,treswa,treeswallow,tachycineta-bicolor,,TRES
-tachycineta-thalassina,violetgreenswallow,vigswa,violetgreenswallow,tachycineta-thalassina,,VGSW
-riparia-riparia,sandmartin,banswa,bankswallow,riparia-riparia,"Same species, different common name",BANS
-petrochelidon-pyrrhonota,americancliffswallow,cliswa,cliffswallow,petrochelidon-pyrrhonota,"Same species, different common name",CLSW
-petrochelidon-fulva,caveswallow,cavswa,caveswallow,petrochelidon-fulva,,CASW
-hirundo-rustica,barnswallow,barswa,barnswallow,hirundo-rustica,,BARS
-poecile-carolinensis,carolinachickadee,carchi,carolinachickadee,poecile-carolinensis,,CACH
-poecile-atricapillus,blackcappedchickadee,bkcchi,blackcappedchickadee,poecile-atricapillus,,BCCH
-poecile-gambeli,mountainchickadee,mouchi,mountainchickadee,poecile-gambeli,,MOCH
-poecile-sclateri,mexicanchickadee,mexchi,mexicanchickadee,poecile-sclateri,,MECH
-poecile-rufescens,chestnutbackedchickadee,chbchi,chestnutbackedchickadee,poecile-rufescens,,CBCH
-poecile-hudsonicus,borealchickadee,borchi2,borealchickadee,poecile-hudsonicus,,BOCH
-baeolophus-wollweberi,bridledtitmouse,britit,bridledtitmouse,baeolophus-wollweberi,,BRTI
-baeolophus-inornatus,oaktitmouse,oaktit,oaktitmouse,baeolophus-inornatus,,OATI
-baeolophus-ridgwayi,junipertitmouse,juntit1,junipertitmouse,baeolophus-ridgwayi,,JUTI
-baeolophus-bicolor,tuftedtitmouse,tuftit,tuftedtitmouse,baeolophus-bicolor,,TUTI
-baeolophus-atricristatus,blackcrestedtitmouse,blctit4,blackcrestedtitmouse,baeolophus-atricristatus,,BCTI
-auriparus-flaviceps,verdin,verdin,verdin,auriparus-flaviceps,,VERD
-psaltriparus-minimus,americanbushtit,bushti,bushtit,psaltriparus-minimus,"Same species, different common name",BUSH
-sitta-canadensis,redbreastednuthatch,rebnut,redbreastednuthatch,sitta-canadensis,,RBNU
-sitta-carolinensis,whitebreastednuthatch,whbnut,whitebreastednuthatch,sitta-carolinensis,,WBNU
-sitta-pygmaea,pygmynuthatch,pygnut,pygmynuthatch,sitta-pygmaea,,PYNU
-sitta-pusilla,brownheadednuthatch,bnhnut,brownheadednuthatch,sitta-pusilla,,BHNU
-certhia-americana,browncreeper,brncre,browncreeper,certhia-americana,,BRCR
-salpinctes-obsoletus,rockwren,rocwre,rockwren,salpinctes-obsoletus,,ROWR
-catherpes-mexicanus,canyonwren,canwre,canyonwren,catherpes-mexicanus,,CANW
-troglodytes-aedon,housewren,houwre,housewren,troglodytes-aedon,,HOWR
-troglodytes-pacificus,pacificwren,pacwre1,pacificwren,troglodytes-pacificus,,PAWR
-troglodytes-hiemalis,winterwren,winwre3,winterwren,troglodytes-hiemalis,,WIWR
-cistothorus-stellaris,sedgewren,sedwre,sedgewren,cistothorus-stellaris,"Same species, different scientific name",
-cistothorus-palustris,marshwren,marwre,marshwren,cistothorus-palustris,,MAWR
-thryothorus-ludovicianus,carolinawren,carwre,carolinawren,thryothorus-ludovicianus,,CARW
-thryomanes-bewickii,bewickswren,bewwre,bewickswren,thryomanes-bewickii,,BEWR
-campylorhynchus-brunneicapillus,cactuswren,cacwre,cactuswren,campylorhynchus-brunneicapillus,,CACW
-polioptila-caerulea,bluegraygnatcatcher,buggna,bluegraygnatcatcher,polioptila-caerulea,,BGGN
-polioptila-californica,californiagnatcatcher,calgna,californiagnatcatcher,polioptila-californica,,CAGN
-polioptila-melanura,blacktailedgnatcatcher,bktgna,blacktailedgnatcatcher,polioptila-melanura,,BTGN
-pycnonotus-cafer,redventedbulbul,revbul,redventedbulbul,pycnonotus-cafer,,RVBU
-pycnonotus-jocosus,redwhiskeredbulbul,rewbul,redwhiskeredbulbul,pycnonotus-jocosus,,RWBU
-regulus-satrapa,goldencrownedkinglet,gockin,goldencrownedkinglet,regulus-satrapa,,GCKI
-regulus-calendula,rubycrownedkinglet,ruckin,rubycrownedkinglet,regulus-calendula,,RCKI
-horornis-diphone,japanesebushwarbler,jabwar,japanesebushwarbler,horornis-diphone,,
-phylloscopus-borealis,arcticwarbler,arcwar1,arcticwarbler,phylloscopus-borealis,,ARWA
-chamaea-fasciata,wrentit,wrenti,wrentit,chamaea-fasciata,,WREN
-zosterops-japonicus,warblingwhiteeye,jaweye,japanesewhiteeye,zosterops-japonicus,"Same species, different common name",JAWE
-luscinia-svecica,bluethroat,blueth,bluethroat,luscinia-svecica,,BLUE
-oenanthe-oenanthe,northernwheatear,norwhe,northernwheatear,oenanthe-oenanthe,,NOWH
-sialia-sialis,easternbluebird,easblu,easternbluebird,sialia-sialis,,EABL
-myadestes-townsendi,townsendssolitaire,towsol,townsendssolitaire,myadestes-townsendi,,TOSO
-catharus-fuscescens,veery,veery,veery,catharus-fuscescens,,VEER
-catharus-minimus,graycheekedthrush,gycthr,graycheekedthrush,catharus-minimus,,GCTH
-catharus-bicknelli,bicknellsthrush,bicthr,bicknellsthrush,catharus-bicknelli,,BITH
-catharus-ustulatus,swainsonsthrush,swathr,swainsonsthrush,catharus-ustulatus,,SWTH
-catharus-guttatus,hermitthrush,herthr,hermitthrush,catharus-guttatus,,HETH
-hylocichla-mustelina,woodthrush,woothr,woodthrush,hylocichla-mustelina,,WOTH
-turdus-migratorius,americanrobin,amerob,americanrobin,turdus-migratorius,,AMRO
-ixoreus-naevius,variedthrush,varthr,variedthrush,ixoreus-naevius,,VATH
-dumetella-carolinensis,graycatbird,grycat,graycatbird,dumetella-carolinensis,,GRCA
-toxostoma-curvirostre,curvebilledthrasher,cubthr,curvebilledthrasher,toxostoma-curvirostre,,CBTH
-toxostoma-rufum,brownthrasher,brnthr,brownthrasher,toxostoma-rufum,,BRTH
-toxostoma-longirostre,longbilledthrasher,lobthr,longbilledthrasher,toxostoma-longirostre,,LBTH
-toxostoma-bendirei,bendiresthrasher,benthr,bendiresthrasher,toxostoma-bendirei,,BETH
-toxostoma-redivivum,californiathrasher,calthr,californiathrasher,toxostoma-redivivum,,CATH
-toxostoma-lecontei,lecontesthrasher,lecthr,lecontesthrasher,toxostoma-lecontei,,LCTH
-toxostoma-crissale,crissalthrasher,crithr,crissalthrasher,toxostoma-crissale,,CRTH
-oreoscoptes-montanus,sagethrasher,sagthr,sagethrasher,oreoscoptes-montanus,,SATH
-mimus-polyglottos,northernmockingbird,normoc,northernmockingbird,mimus-polyglottos,,NOMO
-sturnus-vulgaris,commonstarling,eursta,europeanstarling,sturnus-vulgaris,"Same species, different common name",EUST
-acridotheres-tristis,commonmyna,commyn,commonmyna,acridotheres-tristis,,COMY
-bombycilla-garrulus,bohemianwaxwing,bohwax,bohemianwaxwing,bombycilla-garrulus,,BOWA
-bombycilla-cedrorum,cedarwaxwing,cedwax,cedarwaxwing,bombycilla-cedrorum,,CEDW
-phainopepla-nitens,phainopepla,phaino,phainopepla,phainopepla-nitens,,PHAI
-peucedramus-taeniatus,olivewarbler,oliwar,olivewarbler,peucedramus-taeniatus,,OLWA
-estrilda-astrild,commonwaxbill,comwax,commonwaxbill,estrilda-astrild,,COMW
-passer-domesticus,housesparrow,houspa,housesparrow,passer-domesticus,,HOSP
-passer-montanus,eurasiantreesparrow,eutspa,eurasiantreesparrow,passer-montanus,,ETSP
-motacilla-tschutschensis,easternyellowwagtail,eaywag,easternyellowwagtail,motacilla-tschutschensis,,EYWA
-anthus-rubescens,buffbelliedpipit,amepip,americanpipit,anthus-rubescens,"Same species, different common name",AMPI
-anthus-spragueii,spraguespipit,sprpip,spraguespipit,anthus-spragueii,,SPPI
-hesperiphona-vespertina,eveninggrosbeak,evegro,eveninggrosbeak,hesperiphona-vespertina,"Same species, different scientific name",
-himatione-sanguinea,apapane,apapan,apapane,himatione-sanguinea,,APAP
-pinicola-enucleator,pinegrosbeak,pingro,pinegrosbeak,pinicola-enucleator,,PIGR
-haemorhous-mexicanus,housefinch,houfin,housefinch,haemorhous-mexicanus,,HOFI
-haemorhous-purpureus,purplefinch,purfin,purplefinch,haemorhous-purpureus,,PUFI
-haemorhous-cassinii,cassinsfinch,casfin,cassinsfinch,haemorhous-cassinii,,CAFI
-crithagra-mozambica,yellowfrontedcanary,yefcan,yellowfrontedcanary,crithagra-mozambica,,YFCA
-acanthis-flammea,commonredpoll,comred,commonredpoll,acanthis-flammea,,CORE
-acanthis-hornemanni,arcticredpoll,hoared,hoaryredpoll,acanthis-hornemanni,"Same species, different common name",HORE
-loxia-curvirostra,redcrossbill,redcro,redcrossbill,loxia-curvirostra,,RECR
-loxia-leucoptera,twobarredcrossbill,whwcro,whitewingedcrossbill,loxia-leucoptera,"Same species, different common name",WWCR
-spinus-pinus,pinesiskin,pinsis,pinesiskin,spinus-pinus,,PISI
-spinus-psaltria,lessergoldfinch,lesgol,lessergoldfinch,spinus-psaltria,,LEGO
-spinus-lawrencei,lawrencesgoldfinch,lawgol,lawrencesgoldfinch,spinus-lawrencei,,LAGO
-spinus-tristis,americangoldfinch,amegfi,americangoldfinch,spinus-tristis,,AMGO
-calcarius-lapponicus,laplandlongspur,laplon,laplandlongspur,calcarius-lapponicus,,LALO
-calcarius-ornatus,chestnutcollaredlongspur,chclon,chestnutcollaredlongspur,calcarius-ornatus,,CCLO
-plectrophenax-nivalis,snowbunting,snobun,snowbunting,plectrophenax-nivalis,,SNBU
-arremonops-rufivirgatus,olivesparrow,olispa,olivesparrow,arremonops-rufivirgatus,,OLSP
-pipilo-chlorurus,greentailedtowhee,gnttow,greentailedtowhee,pipilo-chlorurus,,GTTO
-pipilo-maculatus,spottedtowhee,spotow,spottedtowhee,pipilo-maculatus,,SPTO
-pipilo-erythrophthalmus,easterntowhee,eastow,easterntowhee,pipilo-erythrophthalmus,,EATO
-aimophila-ruficeps,rufouscrownedsparrow,rucspa,rufouscrownedsparrow,aimophila-ruficeps,,RCSP
-melozone-fusca,canyontowhee,cantow,canyontowhee,melozone-fusca,,CANT
-melozone-crissalis,californiatowhee,caltow,californiatowhee,melozone-crissalis,,CALT
-melozone-aberti,abertstowhee,abetow,abertstowhee,melozone-aberti,,ABTO
-peucaea-carpalis,rufouswingedsparrow,ruwspa,rufouswingedsparrow,peucaea-carpalis,,RWSP
-peucaea-botterii,botterissparrow,botspa,botterissparrow,peucaea-botterii,,BOSP
-peucaea-cassinii,cassinssparrow,casspa,cassinssparrow,peucaea-cassinii,,CASP
-peucaea-aestivalis,bachmanssparrow,bacspa,bachmanssparrow,peucaea-aestivalis,,BACS
-spizelloides-arborea,americantreesparrow,amtspa,americantreesparrow,spizelloides-arborea,,ATSP
-spizella-passerina,chippingsparrow,chispa,chippingsparrow,spizella-passerina,,CHSP
-spizella-pallida,claycoloredsparrow,clcspa,claycoloredsparrow,spizella-pallida,,CCSP
-spizella-breweri,brewerssparrow,brespa,brewerssparrow,spizella-breweri,,BRSP
-spizella-pusilla,fieldsparrow,fiespa,fieldsparrow,spizella-pusilla,,FISP
-spizella-atrogularis,blackchinnedsparrow,bkcspa,blackchinnedsparrow,spizella-atrogularis,,BCSP
-pooecetes-gramineus,vespersparrow,vesspa,vespersparrow,pooecetes-gramineus,,VESP
-chondestes-grammacus,larksparrow,larspa,larksparrow,chondestes-grammacus,,LASP
-amphispiza-bilineata,blackthroatedsparrow,bktspa,blackthroatedsparrow,amphispiza-bilineata,,BTSP
-artemisiospiza-nevadensis,sagebrushsparrow,sagspa1,sagebrushsparrow,artemisiospiza-nevadensis,,SABS
-artemisiospiza-belli,bellssparrow,belspa2,bellssparrow,artemisiospiza-belli,,BESP
-calamospiza-melanocorys,larkbunting,larbun,larkbunting,calamospiza-melanocorys,,LARB
-passerculus-sandwichensis,savannahsparrow,savspa,savannahsparrow,passerculus-sandwichensis,,SAVS
-ammodramus-savannarum,grasshoppersparrow,graspa,grasshoppersparrow,ammodramus-savannarum,,GRSP
-ammodramus-bairdii,bairdssparrow,baispa,bairdssparrow,ammodramus-bairdii,"Same species, different scientific name",BAIS
-ammodramus-henslowii,henslowssparrow,henspa,henslowssparrow,ammodramus-henslowii,"Same species, different scientific name",HESP
-ammodramus-leconteii,lecontessparrow,lecspa,lecontessparrow,ammodramus-leconteii,"Same species, different scientific name",LCSP
-ammodramus-maritimus,seasidesparrow,seaspa,seasidesparrow,ammodramus-maritimus,"Same species, different scientific name",SESP
-ammodramus-nelsoni,nelsonssparrow,nstspa,nelsonssparrow,ammodramus-nelsoni,"Same species, different scientific name",NESP
-passerella-iliaca,redfoxsparrow,foxspa,foxsparrow,,XC split with multiple species in the ABA area; BirdNet's name for the entire complex (passerella-iliaca) refers to one of the ABA XC subspecies,FOSP
-melospiza-melodia,songsparrow,sonspa,songsparrow,melospiza-melodia,,SOSP
-melospiza-lincolnii,lincolnssparrow,linspa,lincolnssparrow,melospiza-lincolnii,,LISP
-melospiza-georgiana,swampsparrow,swaspa,swampsparrow,melospiza-georgiana,,SWSP
-zonotrichia-albicollis,whitethroatedsparrow,whtspa,whitethroatedsparrow,zonotrichia-albicollis,,WTSP
-zonotrichia-querula,harrisssparrow,harspa,harrisssparrow,zonotrichia-querula,,HASP
-zonotrichia-leucophrys,whitecrownedsparrow,whcspa,whitecrownedsparrow,zonotrichia-leucophrys,,WCSP
-zonotrichia-atricapilla,goldencrownedsparrow,gocspa,goldencrownedsparrow,zonotrichia-atricapilla,,GCSP
-junco-hyemalis,darkeyedjunco,daejun,darkeyedjunco,junco-hyemalis,,DEJU
-junco-phaeonotus,yelloweyedjunco,yeejun,yelloweyedjunco,junco-phaeonotus,,YEJU
-icteria-virens,yellowbreastedchat,yebcha,yellowbreastedchat,icteria-virens,,YBCH
-xanthocephalus-xanthocephalus,yellowheadedblackbird,yehbla,yellowheadedblackbird,xanthocephalus-xanthocephalus,,YHBL
-dolichonyx-oryzivorus,bobolink,boboli,bobolink,dolichonyx-oryzivorus,,BOBO
-sturnella-magna,easternmeadowlark,easmea,easternmeadowlark,sturnella-magna,,EAME
-sturnella-neglecta,westernmeadowlark,wesmea,westernmeadowlark,sturnella-neglecta,,WEME
-icterus-spurius,orchardoriole,orcori,orchardoriole,icterus-spurius,,OROR
-icterus-cucullatus,hoodedoriole,hooori,hoodedoriole,icterus-cucullatus,,HOOR
-icterus-bullockii,bullocksoriole,bulori,bullocksoriole,icterus-bullockii,,BUOR
-icterus-gularis,altamiraoriole,altori,altamiraoriole,icterus-gularis,,ALOR
-icterus-graduacauda,audubonsoriole,audori,audubonsoriole,icterus-graduacauda,,AUOR
-icterus-galbula,baltimoreoriole,balori,baltimoreoriole,icterus-galbula,,BAOR
-icterus-parisorum,scottsoriole,scoori,scottsoriole,icterus-parisorum,,SCOR
-agelaius-phoeniceus,redwingedblackbird,rewbla,redwingedblackbird,agelaius-phoeniceus,,RWBL
-agelaius-tricolor,tricoloredblackbird,tribla,tricoloredblackbird,agelaius-tricolor,,TRBL
-molothrus-ater,brownheadedcowbird,bnhcow,brownheadedcowbird,molothrus-ater,,BHCO
-euphagus-carolinus,rustyblackbird,rusbla,rustyblackbird,euphagus-carolinus,,RUBL
-euphagus-cyanocephalus,brewersblackbird,brebla,brewersblackbird,euphagus-cyanocephalus,,BRBL
-quiscalus-quiscula,commongrackle,comgra,commongrackle,quiscalus-quiscula,,COGR
-quiscalus-major,boattailedgrackle,botgra,boattailedgrackle,quiscalus-major,,BTGR
-quiscalus-mexicanus,greattailedgrackle,grtgra,greattailedgrackle,quiscalus-mexicanus,,GTGR
-seiurus-aurocapilla,ovenbird,ovenbi1,ovenbird,seiurus-aurocapilla,,OVEN
-helmitheros-vermivorum,wormeatingwarbler,woewar1,wormeatingwarbler,helmitheros-vermivorum,,WEWA
-parkesia-motacilla,louisianawaterthrush,louwat,louisianawaterthrush,parkesia-motacilla,,LOWA
-parkesia-noveboracensis,northernwaterthrush,norwat,northernwaterthrush,parkesia-noveboracensis,,NOWA
-vermivora-chrysoptera,goldenwingedwarbler,gowwar,goldenwingedwarbler,vermivora-chrysoptera,,GWWA
-vermivora-cyanoptera,bluewingedwarbler,buwwar,bluewingedwarbler,vermivora-cyanoptera,,BWWA
-mniotilta-varia,blackandwhitewarbler,bawwar,blackandwhitewarbler,mniotilta-varia,,BAWW
-protonotaria-citrea,prothonotarywarbler,prowar,prothonotarywarbler,protonotaria-citrea,,PROW
-limnothlypis-swainsonii,swainsonswarbler,swawar,swainsonswarbler,limnothlypis-swainsonii,,SWWA
-leiothlypis-peregrina,tennesseewarbler,tenwar,tennesseewarbler,leiothlypis-peregrina,"Same species, different scientific name",
-leiothlypis-celata,orangecrownedwarbler,orcwar,orangecrownedwarbler,leiothlypis-celata,"Same species, different scientific name",
-leiothlypis-luciae,lucyswarbler,lucwar,lucyswarbler,leiothlypis-luciae,"Same species, different scientific name",
-leiothlypis-ruficapilla,nashvillewarbler,naswar,nashvillewarbler,leiothlypis-ruficapilla,"Same species, different scientific name",
-leiothlypis-virginiae,virginiaswarbler,virwar,virginiaswarbler,leiothlypis-virginiae,"Same species, different scientific name",
-oporornis-agilis,connecticutwarbler,conwar,connecticutwarbler,oporornis-agilis,,CONW
-geothlypis-tolmiei,macgillivrayswarbler,macwar,macgillivrayswarbler,geothlypis-tolmiei,,MGWA
-geothlypis-philadelphia,mourningwarbler,mouwar,mourningwarbler,geothlypis-philadelphia,,MOWA
-geothlypis-formosa,kentuckywarbler,kenwar,kentuckywarbler,geothlypis-formosa,,KEWA
-geothlypis-trichas,commonyellowthroat,comyel,commonyellowthroat,geothlypis-trichas,,COYE
-setophaga-citrina,hoodedwarbler,hoowar,hoodedwarbler,setophaga-citrina,,HOWA
-setophaga-ruticilla,americanredstart,amered,americanredstart,setophaga-ruticilla,,AMRE
-setophaga-kirtlandii,kirtlandswarbler,kirwar,kirtlandswarbler,setophaga-kirtlandii,,KIWA
-setophaga-tigrina,capemaywarbler,camwar,capemaywarbler,setophaga-tigrina,,CMWA
-setophaga-cerulea,ceruleanwarbler,cerwar,ceruleanwarbler,setophaga-cerulea,,CERW
-setophaga-americana,northernparula,norpar,northernparula,setophaga-americana,,NOPA
-setophaga-magnolia,magnoliawarbler,magwar,magnoliawarbler,setophaga-magnolia,,MAWA
-setophaga-castanea,baybreastedwarbler,babwar,baybreastedwarbler,setophaga-castanea,,BBWA
-setophaga-fusca,blackburnianwarbler,bkbwar,blackburnianwarbler,setophaga-fusca,,BLBW
-setophaga-aestiva,americanyellowwarbler,yelwar,yellowwarbler,setophaga-aestiva,XC split with only one species in the ABA area; BirdNet's name for the complex (setophaga-petechia) refers to the XC species INSIDE the ABA area,
-setophaga-pensylvanica,chestnutsidedwarbler,chswar,chestnutsidedwarbler,setophaga-pensylvanica,,CSWA
-setophaga-striata,blackpollwarbler,bkpwar,blackpollwarbler,setophaga-striata,,BLPW
-setophaga-caerulescens,blackthroatedbluewarbler,btbwar,blackthroatedbluewarbler,setophaga-caerulescens,,BTBW
-setophaga-palmarum,palmwarbler,palwar,palmwarbler,setophaga-palmarum,,PAWA
-setophaga-pinus,pinewarbler,pinwar,pinewarbler,setophaga-pinus,,PIWA
-setophaga-coronata,myrtlewarbler,yerwar,yellowrumpedwarbler,,XC split with multiple species in the ABA area; BirdNet's name for the complex (setophaga-coronata) refers to one of the XC subspecies,YRWA
-setophaga-dominica,yellowthroatedwarbler,yetwar,yellowthroatedwarbler,setophaga-dominica,,YTWA
-setophaga-discolor,prairiewarbler,prawar,prairiewarbler,setophaga-discolor,,PRAW
-setophaga-graciae,graceswarbler,grawar,graceswarbler,setophaga-graciae,,GRWA
-setophaga-nigrescens,blackthroatedgraywarbler,btywar,blackthroatedgraywarbler,setophaga-nigrescens,,BTYW
-setophaga-townsendi,townsendswarbler,towwar,townsendswarbler,setophaga-townsendi,,TOWA
-setophaga-occidentalis,hermitwarbler,herwar,hermitwarbler,setophaga-occidentalis,,HEWA
-setophaga-virens,blackthroatedgreenwarbler,btnwar,blackthroatedgreenwarbler,setophaga-virens,,BTNW
-cardellina-canadensis,canadawarbler,canwar,canadawarbler,cardellina-canadensis,,CAWA
-cardellina-pusilla,wilsonswarbler,wlswar,wilsonswarbler,cardellina-pusilla,,WIWA
-cardellina-rubrifrons,redfacedwarbler,refwar,redfacedwarbler,cardellina-rubrifrons,,RFWA
-myioborus-pictus,paintedwhitestart,paired,paintedredstart,myioborus-pictus,"Same species, different common name",PARE
-piranga-hepatica,hepatictanager,,,,XC split with only one species in the ABA area; BirdNet's name for the complex (piranga-flava) refers to the XC species outside the ABA area,
-piranga-rubra,summertanager,sumtan,summertanager,piranga-rubra,,SUTA
-piranga-olivacea,scarlettanager,scatan,scarlettanager,piranga-olivacea,,SCTA
-piranga-ludoviciana,westerntanager,westan,westerntanager,piranga-ludoviciana,,WETA
-cardinalis-cardinalis,northerncardinal,norcar,northerncardinal,cardinalis-cardinalis,,NOCA
-cardinalis-sinuatus,pyrrhuloxia,pyrrhu,pyrrhuloxia,cardinalis-sinuatus,,PYRR
-pheucticus-ludovicianus,rosebreastedgrosbeak,robgro,rosebreastedgrosbeak,pheucticus-ludovicianus,,RBGR
-pheucticus-melanocephalus,blackheadedgrosbeak,bkhgro,blackheadedgrosbeak,pheucticus-melanocephalus,,BHGR
-passerina-caerulea,bluegrosbeak,blugrb1,bluegrosbeak,passerina-caerulea,,BLGR
-passerina-amoena,lazulibunting,lazbun,lazulibunting,passerina-amoena,,LAZB
-passerina-cyanea,indigobunting,indbun,indigobunting,passerina-cyanea,,INBU
-passerina-versicolor,variedbunting,varbun,variedbunting,passerina-versicolor,,VABU
-passerina-ciris,paintedbunting,paibun,paintedbunting,passerina-ciris,,PABU
-spiza-americana,dickcissel,dickci,dickcissel,spiza-americana,,DICK
-paroaria-coronata,redcrestedcardinal,reccar,redcrestedcardinal,paroaria-coronata,,RCCA
-sicalis-flaveola,saffronfinch,saffin,saffronfinch,sicalis-flaveola,,SAFI
-passerella-unalaschcensis,sootyfoxsparrow,,,,XC split with multiple species in the ABA area; BirdNet's name for the entire complex (passerella-iliaca) refers to one of the ABA XC subspecies,
-passerella-schistacea,slatecoloredfoxsparrow,,,,XC split with multiple species in the ABA area; BirdNet's name for the entire complex (passerella-iliaca) refers to one of the ABA XC subspecies,
-passerella-megarhyncha,thickbilledfoxsparrow,,,,XC split with multiple species in the ABA area; BirdNet's name for the entire complex (passerella-iliaca) refers to one of the ABA XC subspecies,
-setophaga-auduboni,audubonswarbler,,,,XC split with multiple species in the ABA area; BirdNet's name for the complex (setophaga-coronata) refers to one of the XC ABA subspecies,
+scientific,xc_common,bn_code,bn_common,bn_mapping_in_xc_dataset,relationship,ibp_alpha,ibp_common
+dendrocygna-autumnalis,blackbelliedwhistlingduck,bbwduc,blackbelliedwhistlingduck,dendrocygna-autumnalis,,BBWD,Black-bellied Whistling-Duck
+anser-caerulescens,snowgoose,snogoo,snowgoose,anser-caerulescens,,SNGO,Snow Goose
+anser-albifrons,greaterwhitefrontedgoose,gwfgoo,greaterwhitefrontedgoose,anser-albifrons,,GWFG,Greater White-fronted Goose
+branta-bernicla,brantgoose,brant,brant,branta-bernicla,"Same species, different common name",BRAN,Brant
+branta-hutchinsii,cacklinggoose,cacgoo1,cacklinggoose,branta-hutchinsii,,CACG,Cackling Goose
+branta-canadensis,canadagoose,cangoo,canadagoose,branta-canadensis,,CANG,Canada Goose
+cygnus-olor,muteswan,mutswa,muteswan,cygnus-olor,,MUSW,Mute Swan
+cygnus-buccinator,trumpeterswan,truswa,trumpeterswan,cygnus-buccinator,,TRUS,Trumpeter Swan
+cygnus-columbianus,tundraswan,tunswa,tundraswan,cygnus-columbianus,,TUSW,Tundra Swan
+alopochen-aegyptiaca,egyptiangoose,egygoo,egyptiangoose,alopochen-aegyptiaca,,EGGO,Egyptian Goose
+aix-sponsa,woodduck,wooduc,woodduck,aix-sponsa,,WODU,Wood Duck
+spatula-discors,bluewingedteal,buwtea,bluewingedteal,spatula-discors,,BWTE,Blue-winged Teal
+spatula-clypeata,northernshoveler,norsho,northernshoveler,spatula-clypeata,,NSHO,Northern Shoveler
+mareca-strepera,gadwall,gadwal,gadwall,mareca-strepera,,GADW,Gadwall
+mareca-penelope,eurasianwigeon,eurwig,eurasianwigeon,mareca-penelope,,EUWI,Eurasian Wigeon
+anas-platyrhynchos,mallard,mallar3,mallard,anas-platyrhynchos,,MALL,Mallard
+anas-carolinensis,greenwingedteal,,,,XC split with only one species in the ABA area; BirdNet's name for the complex (anas-crecca) refers to the XC species outside the ABA area,,
+somateria-mollissima,commoneider,comeid,commoneider,somateria-mollissima,,COEI,Common Eider
+clangula-hyemalis,longtailedduck,lotduc,longtailedduck,clangula-hyemalis,,LTDU,Long-tailed Duck
+bucephala-clangula,commongoldeneye,comgol,commongoldeneye,bucephala-clangula,,COGO,Common Goldeneye
+mergus-merganser,commonmerganser,commer,commonmerganser,mergus-merganser,,COME,Common Merganser
+ortalis-vetula,plainchachalaca,placha,plainchachalaca,ortalis-vetula,,PLCH,Plain Chachalaca
+oreortyx-pictus,mountainquail,mouqua,mountainquail,oreortyx-pictus,,MOUQ,Mountain Quail
+colinus-virginianus,northernbobwhite,norbob,northernbobwhite,colinus-virginianus,,NOBO,Northern Bobwhite
+callipepla-squamata,scaledquail,scaqua,scaledquail,callipepla-squamata,,SCQU,Scaled Quail
+callipepla-californica,californiaquail,calqua,californiaquail,callipepla-californica,,CAQU,California Quail
+callipepla-gambelii,gambelsquail,gamqua,gambelsquail,callipepla-gambelii,,GAQU,Gambel's Quail
+francolinus-francolinus,blackfrancolin,blkfra,blackfrancolin,francolinus-francolinus,,BLFR,Black Francolin
+perdix-perdix,graypartridge,grypar,graypartridge,perdix-perdix,,GRAP,Gray Partridge
+gallus-gallus,redjunglefowl,redjun,redjunglefowl,gallus-gallus,,REJU,Red Junglefowl
+phasianus-colchicus,commonpheasant,rinphe,ringneckedpheasant,phasianus-colchicus,"Same species, different common name",RNEP,Ring-necked Pheasant
+centrocercus-urophasianus,sagegrouse,saggro,greatersagegrouse,centrocercus-urophasianus,"Same species, different common name",GRSG,Greater Sage-Grouse
+lagopus-lagopus,willowptarmigan,wilpta,willowptarmigan,lagopus-lagopus,,WIPT,Willow Ptarmigan
+lagopus-muta,rockptarmigan,rocpta1,rockptarmigan,lagopus-muta,,ROPT,Rock Ptarmigan
+lagopus-leucura,whitetailedptarmigan,whtpta1,whitetailedptarmigan,lagopus-leucura,,WTPT,White-tailed Ptarmigan
+dendragapus-fuliginosus,sootygrouse,soogro1,sootygrouse,dendragapus-fuliginosus,,SOGR,Sooty Grouse
+tympanuchus-phasianellus,sharptailedgrouse,shtgro,sharptailedgrouse,tympanuchus-phasianellus,,STGR,Sharp-tailed Grouse
+tympanuchus-cupido,greaterprairiechicken,grpchi,greaterprairiechicken,tympanuchus-cupido,,GRPC,Greater Prairie-Chicken
+meleagris-gallopavo,wildturkey,wiltur,wildturkey,meleagris-gallopavo,,WITU,Wild Turkey
+tachybaptus-dominicus,leastgrebe,leagre,leastgrebe,tachybaptus-dominicus,,LEGR,Least Grebe
+podilymbus-podiceps,piedbilledgrebe,pibgre,piedbilledgrebe,podilymbus-podiceps,,PBGR,Pied-billed Grebe
+podiceps-auritus,hornedgrebe,horgre,hornedgrebe,podiceps-auritus,,HOGR,Horned Grebe
+podiceps-grisegena,redneckedgrebe,rengre,redneckedgrebe,podiceps-grisegena,,RNGR,Red-necked Grebe
+podiceps-nigricollis,blackneckedgrebe,eargre,earedgrebe,podiceps-nigricollis,"Same species, different common name",EAGR,Eared Grebe
+aechmophorus-occidentalis,westerngrebe,wesgre,westerngrebe,aechmophorus-occidentalis,,WEGR,Western Grebe
+columba-livia,rockdove,rocpig,rockpigeon,columba-livia,"Same species, different common name",ROPI,Rock Pigeon
+patagioenas-flavirostris,redbilledpigeon,rebpig1,redbilledpigeon,patagioenas-flavirostris,,RBPI,Red-billed Pigeon
+patagioenas-fasciata,bandtailedpigeon,batpig1,bandtailedpigeon,patagioenas-fasciata,,BTPI,Band-tailed Pigeon
+streptopelia-decaocto,eurasiancollareddove,eucdov,eurasiancollareddove,streptopelia-decaocto,,EUCD,Eurasian Collared-Dove
+spilopelia-chinensis,spotteddove,spodove,spotteddove,spilopelia-chinensis,"Same species, different scientific name",,
+geopelia-striata,zebradove,zebdov,zebradove,geopelia-striata,,ZEBD,Zebra Dove
+columbina-inca,incadove,incdov,incadove,columbina-inca,,INDO,Inca Dove
+columbina-passerina,commongrounddove,cogdov,commongrounddove,columbina-passerina,,COGD,Common Ground-Dove
+leptotila-verreauxi,whitetippeddove,whtdov,whitetippeddove,leptotila-verreauxi,,WTDO,White-tipped Dove
+zenaida-asiatica,whitewingeddove,whwdov,whitewingeddove,zenaida-asiatica,,WWDO,White-winged Dove
+zenaida-macroura,mourningdove,moudov,mourningdove,zenaida-macroura,,MODO,Mourning Dove
+coccyzus-americanus,yellowbilledcuckoo,yebcuc,yellowbilledcuckoo,coccyzus-americanus,,YBCU,Yellow-billed Cuckoo
+coccyzus-erythropthalmus,blackbilledcuckoo,bkbcuc,blackbilledcuckoo,coccyzus-erythropthalmus,,BBCU,Black-billed Cuckoo
+geococcyx-californianus,greaterroadrunner,greroa,greaterroadrunner,geococcyx-californianus,,GRRO,Greater Roadrunner
+crotophaga-sulcirostris,groovebilledani,grbani,groovebilledani,crotophaga-sulcirostris,,GBAN,Groove-billed Ani
+chordeiles-acutipennis,lessernighthawk,lesnig,lessernighthawk,chordeiles-acutipennis,,LENI,Lesser Nighthawk
+chordeiles-minor,commonnighthawk,comnig,commonnighthawk,chordeiles-minor,,CONI,Common Nighthawk
+nyctidromus-albicollis,pauraque,compau,commonpauraque,nyctidromus-albicollis,"Same species, different common name",COPA,Common Pauraque
+phalaenoptilus-nuttallii,commonpoorwill,compoo,commonpoorwill,phalaenoptilus-nuttallii,,COPO,Common Poorwill
+antrostomus-carolinensis,chuckwillswidow,chwwid,chuckwillswidow,antrostomus-carolinensis,,CWWI,Chuck-will's-widow
+antrostomus-vociferus,easternwhippoorwill,whip-p1,easternwhippoorwill,antrostomus-vociferus,,EWPW,Eastern Whip-poor-will
+antrostomus-arizonae,mexicanwhippoorwill,souwpw1,mexicanwhippoorwill,antrostomus-arizonae,,MWPW,Mexican Whip-poor-will
+eugenes-fulgens,rivolishummingbird,maghum1,rivolishummingbird,eugenes-fulgens,,RIHU,Rivoli's Hummingbird
+lampornis-clemenciae,bluethroatedmountaingem,buthum,bluethroatedhummingbird,lampornis-clemenciae,"Same species, different common name",BTHH,Blue-throated Hummingbird
+calypte-anna,annashummingbird,annhum,annashummingbird,calypte-anna,,ANHU,Anna's Hummingbird
+selasphorus-platycercus,broadtailedhummingbird,brthum,broadtailedhummingbird,selasphorus-platycercus,,BTAH,Broad-tailed Hummingbird
+selasphorus-rufus,rufoushummingbird,rufhum,rufoushummingbird,selasphorus-rufus,,RUHU,Rufous Hummingbird
+amazilia-violiceps,violetcrownedhummingbird,vichum,violetcrownedhummingbird,amazilia-violiceps,,VCHU,Violet-crowned Hummingbird
+laterallus-jamaicensis,blackrail,blkrai,blackrail,laterallus-jamaicensis,,BLRA,Black Rail
+rallus-obsoletus,ridgwaysrail,ridrai1,ridgwaysrail,rallus-obsoletus,,RIRA,Ridgway's Rail
+rallus-elegans,kingrail,kinrai4,kingrail,rallus-elegans,,KIRA,King Rail
+rallus-limicola,virginiarail,virrai,virginiarail,rallus-limicola,,VIRA,Virginia Rail
+porzana-carolina,sora,sora,sora,porzana-carolina,,SORA,Sora
+porphyrio-martinica,purplegallinule,purgal2,purplegallinule,porphyrio-martinica,,,
+gallinula-galeata,commongallinule,comgal1,commongallinule,gallinula-galeata,,COGA,Common Gallinule
+fulica-americana,americancoot,y00475,americancoot,fulica-americana,,AMCO,American Coot
+aramus-guarauna,limpkin,limpki,limpkin,aramus-guarauna,,LIMP,Limpkin
+antigone-canadensis,sandhillcrane,sancra,sandhillcrane,antigone-canadensis,,SACR,Sandhill Crane
+himantopus-mexicanus,blackneckedstilt,bknsti,blackneckedstilt,himantopus-mexicanus,,BNST,Black-necked Stilt
+recurvirostra-americana,americanavocet,ameavo,americanavocet,recurvirostra-americana,,AMAV,American Avocet
+pluvialis-squatarola,grayplover,bkbplo,blackbelliedplover,pluvialis-squatarola,"Same species, different common name",BBPL,Black-bellied Plover
+pluvialis-dominica,americangoldenplover,amgplo,americangoldenplover,pluvialis-dominica,,AMGP,American Golden-Plover
+charadrius-semipalmatus,semipalmatedplover,semplo,semipalmatedplover,charadrius-semipalmatus,,SEPL,Semipalmated Plover
+charadrius-vociferus,killdeer,killde,killdeer,charadrius-vociferus,,KILL,Killdeer
+bartramia-longicauda,uplandsandpiper,uplsan,uplandsandpiper,bartramia-longicauda,,UPSA,Upland Sandpiper
+numenius-phaeopus,whimbrel,whimbr,whimbrel,numenius-phaeopus,,WHIM,Whimbrel
+numenius-americanus,longbilledcurlew,lobcur,longbilledcurlew,numenius-americanus,,LBCU,Long-billed Curlew
+limosa-fedoa,marbledgodwit,margod,marbledgodwit,limosa-fedoa,,MAGO,Marbled Godwit
+arenaria-interpres,ruddyturnstone,rudtur,ruddyturnstone,arenaria-interpres,,RUTU,Ruddy Turnstone
+calidris-canutus,redknot,redkno,redknot,calidris-canutus,,REKN,Red Knot
+calidris-himantopus,stiltsandpiper,stisan,stiltsandpiper,calidris-himantopus,,STSA,Stilt Sandpiper
+calidris-alba,sanderling,sander,sanderling,calidris-alba,,SAND,Sanderling
+calidris-alpina,dunlin,dunlin,dunlin,calidris-alpina,,DUNL,Dunlin
+calidris-maritima,purplesandpiper,pursan,purplesandpiper,calidris-maritima,,PUSA,Purple Sandpiper
+calidris-bairdii,bairdssandpiper,baisan,bairdssandpiper,calidris-bairdii,,BASA,Baird's Sandpiper
+calidris-minutilla,leastsandpiper,leasan,leastsandpiper,calidris-minutilla,,LESA,Least Sandpiper
+calidris-fuscicollis,whiterumpedsandpiper,whrsan,whiterumpedsandpiper,calidris-fuscicollis,,WRSA,White-rumped Sandpiper
+calidris-melanotos,pectoralsandpiper,pecsan,pectoralsandpiper,calidris-melanotos,,PESA,Pectoral Sandpiper
+calidris-pusilla,semipalmatedsandpiper,semsan,semipalmatedsandpiper,calidris-pusilla,,SESA,Semipalmated Sandpiper
+limnodromus-scolopaceus,longbilleddowitcher,lobdow,longbilleddowitcher,limnodromus-scolopaceus,,LBDO,Long-billed Dowitcher
+scolopax-minor,americanwoodcock,amewoo,americanwoodcock,scolopax-minor,,AMWO,American Woodcock
+gallinago-delicata,wilsonssnipe,wilsni1,wilsonssnipe,gallinago-delicata,,WISN,Wilson's Snipe
+actitis-macularius,spottedsandpiper,sposan,spottedsandpiper,actitis-macularius,,SPSA,Spotted Sandpiper
+tringa-solitaria,solitarysandpiper,solsan,solitarysandpiper,tringa-solitaria,,SOSA,Solitary Sandpiper
+tringa-flavipes,lesseryellowlegs,lesyel,lesseryellowlegs,tringa-flavipes,,LEYE,Lesser Yellowlegs
+tringa-semipalmata,willet,willet1,willet,tringa-semipalmata,,WILL,Willet
+tringa-melanoleuca,greateryellowlegs,greyel,greateryellowlegs,tringa-melanoleuca,,GRYE,Greater Yellowlegs
+tringa-glareola,woodsandpiper,woosan,woodsandpiper,tringa-glareola,,WOSA,Wood Sandpiper
+phalaropus-lobatus,redneckedphalarope,renpha,redneckedphalarope,phalaropus-lobatus,,RNPH,Red-necked Phalarope
+phalaropus-fulicarius,redphalarope,redpha1,redphalarope,phalaropus-fulicarius,,REPH,Red Phalarope
+stercorarius-parasiticus,parasiticjaeger,parjae,parasiticjaeger,stercorarius-parasiticus,,PAJA,Parasitic Jaeger
+stercorarius-longicaudus,longtailedjaeger,lotjae,longtailedjaeger,stercorarius-longicaudus,,LTJA,Long-tailed Jaeger
+uria-aalge,commonmurre,commur,commonmurre,uria-aalge,,COMU,Common Murre
+alca-torda,razorbill,razorb,razorbill,alca-torda,,RAZO,Razorbill
+fratercula-arctica,atlanticpuffin,atlpuf,atlanticpuffin,fratercula-arctica,,ATPU,Atlantic Puffin
+rissa-tridactyla,blackleggedkittiwake,bklkit,blackleggedkittiwake,rissa-tridactyla,,BLKI,Black-legged Kittiwake
+chroicocephalus-philadelphia,bonapartesgull,bongul,bonapartesgull,chroicocephalus-philadelphia,,BOGU,Bonaparte's Gull
+leucophaeus-atricilla,laughinggull,laugul,laughinggull,leucophaeus-atricilla,,LAGU,Laughing Gull
+leucophaeus-pipixcan,franklinsgull,fragul,franklinsgull,leucophaeus-pipixcan,,FRGU,Franklin's Gull
+larus-heermanni,heermannsgull,heegul,heermannsgull,larus-heermanni,,HEEG,Heermann's Gull
+larus-canus,mewgull,mewgul,mewgull,larus-canus,,MEGU,Mew Gull
+larus-delawarensis,ringbilledgull,ribgul,ringbilledgull,larus-delawarensis,,RBGU,Ring-billed Gull
+larus-californicus,californiagull,calgul,californiagull,larus-californicus,,CAGU,California Gull
+larus-fuscus,lesserblackbackedgull,lbbgul,lesserblackbackedgull,larus-fuscus,,LBBG,Lesser Black-backed Gull
+larus-glaucescens,glaucouswingedgull,glwgul,glaucouswingedgull,larus-glaucescens,,GWGU,Glaucous-winged Gull
+larus-hyperboreus,glaucousgull,glagul,glaucousgull,larus-hyperboreus,,GLGU,Glaucous Gull
+larus-marinus,greatblackbackedgull,gbbgul,greatblackbackedgull,larus-marinus,,GBBG,Great Black-backed Gull
+gygis-alba,whitetern,whiter,whitetern,gygis-alba,,WHTT,White Tern
+sternula-antillarum,leasttern,leater1,leasttern,sternula-antillarum,,LETE,Least Tern
+gelochelidon-nilotica,gullbilledtern,gubter1,gullbilledtern,gelochelidon-nilotica,,GBTE,Gull-billed Tern
+hydroprogne-caspia,caspiantern,caster1,caspiantern,hydroprogne-caspia,,CATE,Caspian Tern
+chlidonias-niger,blacktern,blkter,blacktern,chlidonias-niger,,BLTE,Black Tern
+sterna-dougallii,roseatetern,roster,roseatetern,sterna-dougallii,,ROST,Roseate Tern
+sterna-hirundo,commontern,comter,commontern,sterna-hirundo,,COTE,Common Tern
+sterna-paradisaea,arctictern,arcter,arctictern,sterna-paradisaea,,ARTE,Arctic Tern
+sterna-forsteri,forsterstern,forter,forsterstern,sterna-forsteri,,FOTE,Forster's Tern
+thalasseus-maximus,royaltern,royter1,royaltern,thalasseus-maximus,,ROYT,Royal Tern
+thalasseus-sandvicensis,sandwichtern,santer1,sandwichtern,thalasseus-sandvicensis,,SATE,Sandwich Tern
+thalasseus-elegans,eleganttern,eleter1,eleganttern,thalasseus-elegans,,ELTE,Elegant Tern
+rynchops-niger,blackskimmer,blkski,blackskimmer,rynchops-niger,,BLSK,Black Skimmer
+gavia-stellata,redthroatedloon,retloo,redthroatedloon,gavia-stellata,,RTLO,Red-throated Loon
+gavia-arctica,blackthroatedloon,arcloo,arcticloon,gavia-arctica,"Same species, different common name",ARLO,Arctic Loon
+gavia-immer,commonloon,comloo,commonloon,gavia-immer,,COLO,Common Loon
+phoebastria-immutabilis,laysanalbatross,layalb,laysanalbatross,phoebastria-immutabilis,,LAAL,Laysan Albatross
+phoebastria-nigripes,blackfootedalbatross,bkfalb,blackfootedalbatross,phoebastria-nigripes,,BFAL,Black-footed Albatross
+fulmarus-glacialis,northernfulmar,norful,northernfulmar,fulmarus-glacialis,,NOFU,Northern Fulmar
+puffinus-puffinus,manxshearwater,manshe,manxshearwater,puffinus-puffinus,,MASH,Manx Shearwater
+morus-bassanus,northerngannet,norgan,northerngannet,morus-bassanus,,NOGA,Northern Gannet
+phalacrocorax-brasilianus,neotropiccormorant,neocor,neotropiccormorant,phalacrocorax-brasilianus,,NECO,Neotropic Cormorant
+phalacrocorax-auritus,doublecrestedcormorant,doccor,doublecrestedcormorant,phalacrocorax-auritus,,DCCO,Double-crested Cormorant
+phalacrocorax-carbo,greatcormorant,grecor,greatcormorant,phalacrocorax-carbo,,GRCO,Great Cormorant
+phalacrocorax-pelagicus,pelagiccormorant,pelcor,pelagiccormorant,phalacrocorax-pelagicus,,PECO,Pelagic Cormorant
+botaurus-lentiginosus,americanbittern,amebit,americanbittern,botaurus-lentiginosus,,AMBI,American Bittern
+ixobrychus-exilis,leastbittern,leabit,leastbittern,ixobrychus-exilis,,LEBI,Least Bittern
+ardea-herodias,greatblueheron,grbher3,greatblueheron,ardea-herodias,,GBHE,Great Blue Heron
+ardea-alba,greategret,greegr,greategret,ardea-alba,,GREG,Great Egret
+bubulcus-ibis,westerncattleegret,categr,cattleegret,bubulcus-ibis,XC split with only one species in the ABA area; BirdNet's name for the complex (bubulcus-ibis) refers to the XC species INSIDE the ABA area,CAEG,Cattle Egret
+nycticorax-nycticorax,blackcrownednightheron,bcnher,blackcrownednightheron,nycticorax-nycticorax,,BCNH,Black-crowned Night-Heron
+plegadis-chihi,whitefacedibis,whfibi,whitefacedibis,plegadis-chihi,,WFIB,White-faced Ibis
+pandion-haliaetus,westernosprey,osprey,osprey,pandion-haliaetus,XC split with only one species in the ABA area; BirdNet's name for the complex (pandion-haliaetus) refers to the XC species INSIDE the ABA area,OSPR,Osprey
+elanoides-forficatus,swallowtailedkite,swtkit,swallowtailedkite,elanoides-forficatus,,STKI,Swallow-tailed Kite
+aquila-chrysaetos,goldeneagle,goleag,goldeneagle,aquila-chrysaetos,,GOEA,Golden Eagle
+accipiter-cooperii,coopershawk,coohaw,coopershawk,accipiter-cooperii,,COHA,Cooper's Hawk
+accipiter-gentilis,northerngoshawk,norgos,northerngoshawk,accipiter-gentilis,,NOGO,Northern Goshawk
+rostrhamus-sociabilis,snailkite,snakit,snailkite,rostrhamus-sociabilis,,SNKI,Snail Kite
+buteo-plagiatus,grayhawk,gryhaw2,grayhawk,buteo-plagiatus,,GRHA,Gray Hawk
+buteo-lineatus,redshoulderedhawk,reshaw,redshoulderedhawk,buteo-lineatus,,RSHA,Red-shouldered Hawk
+buteo-platypterus,broadwingedhawk,brwhaw,broadwingedhawk,buteo-platypterus,,BWHA,Broad-winged Hawk
+buteo-jamaicensis,redtailedhawk,rethaw,redtailedhawk,buteo-jamaicensis,,RTHA,Red-tailed Hawk
+tyto-furcata,americanbarnowl,,,,XC split with only one species in the ABA area; BirdNet's scientific name for the complex (tyto-alba) refers to the XC species outside the ABA area,,
+psiloscops-flammeolus,flammulatedowl,flaowl,flammulatedowl,psiloscops-flammeolus,,FLOW,Flammulated Owl
+megascops-kennicottii,westernscreechowl,wesowl1,westernscreechowl,megascops-kennicottii,,WESO,Western Screech-Owl
+megascops-asio,easternscreechowl,easowl1,easternscreechowl,megascops-asio,,EASO,Eastern Screech-Owl
+megascops-trichopsis,whiskeredscreechowl,whsowl1,whiskeredscreechowl,megascops-trichopsis,,WHSO,Whiskered Screech-Owl
+bubo-virginianus,greathornedowl,grhowl,greathornedowl,bubo-virginianus,,GHOW,Great Horned Owl
+glaucidium-californicum,northernpygmyowl,,,,XC split with only one species in the ABA area; BirdNet's name for the complex (glaucidium-gnoma) refers to the XC species outside the ABA area,,
+micrathene-whitneyi,elfowl,elfowl,elfowl,micrathene-whitneyi,,ELOW,Elf Owl
+athene-cunicularia,burrowingowl,burowl,burrowingowl,athene-cunicularia,,BUOW,Burrowing Owl
+strix-occidentalis,spottedowl,spoowl,spottedowl,strix-occidentalis,,SPOW,Spotted Owl
+strix-varia,barredowl,brdowl,barredowl,strix-varia,,BADO,Barred Owl
+strix-nebulosa,greatgrayowl,grgowl,greatgrayowl,strix-nebulosa,,GGOW,Great Gray Owl
+asio-otus,longearedowl,loeowl,longearedowl,asio-otus,,LEOW,Long-eared Owl
+asio-flammeus,shortearedowl,sheowl,shortearedowl,asio-flammeus,,SEOW,Short-eared Owl
+aegolius-funereus,borealowl,borowl,borealowl,aegolius-funereus,,BOOW,Boreal Owl
+aegolius-acadicus,northernsawwhetowl,nswowl,northernsawwhetowl,aegolius-acadicus,,NSWO,Northern Saw-whet Owl
+trogon-elegans,eleganttrogon,eletro,eleganttrogon,trogon-elegans,,ELTR,Elegant Trogon
+megaceryle-torquata,ringedkingfisher,rinkin1,ringedkingfisher,megaceryle-torquata,,RIKI,Ringed Kingfisher
+megaceryle-alcyon,beltedkingfisher,belkin1,beltedkingfisher,megaceryle-alcyon,,BEKI,Belted Kingfisher
+chloroceryle-americana,greenkingfisher,grnkin,greenkingfisher,chloroceryle-americana,,GKIN,Green Kingfisher
+melanerpes-erythrocephalus,redheadedwoodpecker,rehwoo,redheadedwoodpecker,melanerpes-erythrocephalus,,RHWO,Red-headed Woodpecker
+melanerpes-formicivorus,acornwoodpecker,acowoo,acornwoodpecker,melanerpes-formicivorus,,ACWO,Acorn Woodpecker
+melanerpes-uropygialis,gilawoodpecker,gilwoo,gilawoodpecker,melanerpes-uropygialis,,GIWO,Gila Woodpecker
+melanerpes-carolinus,redbelliedwoodpecker,rebwoo,redbelliedwoodpecker,melanerpes-carolinus,,RBWO,Red-bellied Woodpecker
+sphyrapicus-thyroideus,williamsonssapsucker,wilsap,williamsonssapsucker,sphyrapicus-thyroideus,,WISA,Williamson's Sapsucker
+sphyrapicus-varius,yellowbelliedsapsucker,yebsap,yellowbelliedsapsucker,sphyrapicus-varius,,YBSA,Yellow-bellied Sapsucker
+sphyrapicus-nuchalis,rednapedsapsucker,rensap,rednapedsapsucker,sphyrapicus-nuchalis,,RNSA,Red-naped Sapsucker
+sphyrapicus-ruber,redbreastedsapsucker,rebsap,redbreastedsapsucker,sphyrapicus-ruber,,RBSA,Red-breasted Sapsucker
+picoides-dorsalis,americanthreetoedwoodpecker,attwoo1,americanthreetoedwoodpecker,picoides-dorsalis,,ATTW,American Three-toed Woodpecker
+picoides-arcticus,blackbackedwoodpecker,bkbwoo,blackbackedwoodpecker,picoides-arcticus,,BBWO,Black-backed Woodpecker
+dryobates-pubescens,downywoodpecker,dowwoo,downywoodpecker,dryobates-pubescens,,,
+dryobates-scalaris,ladderbackedwoodpecker,labwoo,ladderbackedwoodpecker,dryobates-scalaris,,,
+leuconotopicus-borealis,redcockadedwoodpecker,recwoo,redcockadedwoodpecker,leuconotopicus-borealis,"Same species, different scientific name",,
+leuconotopicus-villosus,hairywoodpecker,haiwoo,hairywoodpecker,leuconotopicus-villosus,"Same species, different scientific name",,
+colaptes-auratus,northernflicker,norfli,northernflicker,colaptes-auratus,,NOFL,Northern Flicker
+dryocopus-pileatus,pileatedwoodpecker,pilwoo,pileatedwoodpecker,dryocopus-pileatus,,PIWO,Pileated Woodpecker
+falco-sparverius,americankestrel,amekes,americankestrel,falco-sparverius,,AMKE,American Kestrel
+falco-columbarius,merlin,merlin,merlin,falco-columbarius,,MERL,Merlin
+falco-peregrinus,peregrinefalcon,perfal,peregrinefalcon,falco-peregrinus,,PEFA,Peregrine Falcon
+myiopsitta-monachus,monkparakeet,monpar,monkparakeet,myiopsitta-monachus,,MOPA,Monk Parakeet
+psittacula-krameri,roseringedparakeet,rorpar,roseringedparakeet,psittacula-krameri,,RRPA,Rose-ringed Parakeet
+agapornis-roseicollis,rosyfacedlovebird,peflov,rosyfacedlovebird,agapornis-roseicollis,,RFLO,Rosy-faced Lovebird
+camptostoma-imberbe,northernbeardlesstyrannulet,nobtyr,northernbeardlesstyrannulet,camptostoma-imberbe,,NOBT,Northern Beardless-Tyrannulet
+myiarchus-tuberculifer,duskycappedflycatcher,ducfly,duskycappedflycatcher,myiarchus-tuberculifer,,DCFL,Dusky-capped Flycatcher
+myiarchus-cinerascens,ashthroatedflycatcher,astfly,ashthroatedflycatcher,myiarchus-cinerascens,,ATFL,Ash-throated Flycatcher
+myiarchus-crinitus,greatcrestedflycatcher,grcfly,greatcrestedflycatcher,myiarchus-crinitus,,GCFL,Great Crested Flycatcher
+myiarchus-tyrannulus,browncrestedflycatcher,bncfly,browncrestedflycatcher,myiarchus-tyrannulus,,BCFL,Brown-crested Flycatcher
+pitangus-sulphuratus,greatkiskadee,grekis,greatkiskadee,pitangus-sulphuratus,,GKIS,Great Kiskadee
+myiodynastes-luteiventris,sulphurbelliedflycatcher,subfly,sulphurbelliedflycatcher,myiodynastes-luteiventris,,SBFL,Sulphur-bellied Flycatcher
+tyrannus-melancholicus,tropicalkingbird,trokin,tropicalkingbird,tyrannus-melancholicus,,TRKI,Tropical Kingbird
+tyrannus-couchii,couchskingbird,coukin,couchskingbird,tyrannus-couchii,,COKI,Couch's Kingbird
+tyrannus-vociferans,cassinskingbird,caskin,cassinskingbird,tyrannus-vociferans,,CAKI,Cassin's Kingbird
+tyrannus-crassirostris,thickbilledkingbird,thbkin,thickbilledkingbird,tyrannus-crassirostris,,TBKI,Thick-billed Kingbird
+tyrannus-verticalis,westernkingbird,weskin,westernkingbird,tyrannus-verticalis,,WEKI,Western Kingbird
+tyrannus-tyrannus,easternkingbird,easkin,easternkingbird,tyrannus-tyrannus,,EAKI,Eastern Kingbird
+tyrannus-dominicensis,graykingbird,grykin,graykingbird,tyrannus-dominicensis,,GRAK,Gray Kingbird
+tyrannus-forficatus,scissortailedflycatcher,sctfly,scissortailedflycatcher,tyrannus-forficatus,,STFL,Scissor-tailed Flycatcher
+contopus-cooperi,olivesidedflycatcher,olsfly,olivesidedflycatcher,contopus-cooperi,,OSFL,Olive-sided Flycatcher
+contopus-pertinax,greaterpewee,grepew,greaterpewee,contopus-pertinax,,GRPE,Greater Pewee
+contopus-sordidulus,westernwoodpewee,wewpew,westernwoodpewee,contopus-sordidulus,,WEWP,Western Wood-Pewee
+contopus-virens,easternwoodpewee,eawpew,easternwoodpewee,contopus-virens,,EAWP,Eastern Wood-Pewee
+empidonax-flaviventris,yellowbelliedflycatcher,yebfly,yellowbelliedflycatcher,empidonax-flaviventris,,YBFL,Yellow-bellied Flycatcher
+empidonax-virescens,acadianflycatcher,acafly,acadianflycatcher,empidonax-virescens,,ACFL,Acadian Flycatcher
+empidonax-alnorum,alderflycatcher,aldfly,alderflycatcher,empidonax-alnorum,,ALFL,Alder Flycatcher
+empidonax-traillii,willowflycatcher,wilfly,willowflycatcher,empidonax-traillii,,WIFL,Willow Flycatcher
+empidonax-minimus,leastflycatcher,leafly,leastflycatcher,empidonax-minimus,,LEFL,Least Flycatcher
+empidonax-hammondii,hammondsflycatcher,hamfly,hammondsflycatcher,empidonax-hammondii,,HAFL,Hammond's Flycatcher
+empidonax-wrightii,americangrayflycatcher,gryfly,grayflycatcher,empidonax-wrightii,"Same species, different common name",GRFL,Gray Flycatcher
+empidonax-oberholseri,americanduskyflycatcher,dusfly,duskyflycatcher,empidonax-oberholseri,"Same species, different common name",DUFL,Dusky Flycatcher
+empidonax-difficilis,pacificslopeflycatcher,pasfly,pacificslopeflycatcher,empidonax-difficilis,,PSFL,Pacific-slope Flycatcher
+empidonax-occidentalis,cordilleranflycatcher,corfly,cordilleranflycatcher,empidonax-occidentalis,,COFL,Cordilleran Flycatcher
+empidonax-fulvifrons,buffbreastedflycatcher,bubfly,buffbreastedflycatcher,empidonax-fulvifrons,,BBFL,Buff-breasted Flycatcher
+sayornis-nigricans,blackphoebe,blkpho,blackphoebe,sayornis-nigricans,,BLPH,Black Phoebe
+sayornis-phoebe,easternphoebe,easpho,easternphoebe,sayornis-phoebe,,EAPH,Eastern Phoebe
+sayornis-saya,saysphoebe,saypho,saysphoebe,sayornis-saya,,SAPH,Say's Phoebe
+pyrocephalus-obscurus,vermilionflycatcher,verfly,vermilionflycatcher,pyrocephalus-obscurus,"Same species, different common name",,
+lanius-ludovicianus,loggerheadshrike,logshr,loggerheadshrike,lanius-ludovicianus,,LOSH,Loggerhead Shrike
+vireo-atricapilla,blackcappedvireo,bkcvir1,blackcappedvireo,vireo-atricapilla,,BCVI,Black-capped Vireo
+vireo-griseus,whiteeyedvireo,whevir,whiteeyedvireo,vireo-griseus,,WEVI,White-eyed Vireo
+vireo-bellii,bellsvireo,belvir,bellsvireo,vireo-bellii,,BEVI,Bell's Vireo
+vireo-vicinior,grayvireo,gryvir,grayvireo,vireo-vicinior,,GRVI,Gray Vireo
+vireo-huttoni,huttonsvireo,hutvir,huttonsvireo,vireo-huttoni,,HUVI,Hutton's Vireo
+vireo-flavifrons,yellowthroatedvireo,yetvir,yellowthroatedvireo,vireo-flavifrons,,YTVI,Yellow-throated Vireo
+vireo-cassinii,cassinsvireo,casvir,cassinsvireo,vireo-cassinii,,CAVI,Cassin's Vireo
+vireo-solitarius,blueheadedvireo,buhvir,blueheadedvireo,vireo-solitarius,,BHVI,Blue-headed Vireo
+vireo-plumbeus,plumbeousvireo,plsvir,plumbeousvireo,vireo-plumbeus,,PLVI,Plumbeous Vireo
+vireo-philadelphicus,philadelphiavireo,phivir,philadelphiavireo,vireo-philadelphicus,,PHVI,Philadelphia Vireo
+vireo-gilvus,warblingvireo,warvir,warblingvireo,vireo-gilvus,,WAVI,Warbling Vireo
+vireo-olivaceus,redeyedvireo,reevir1,redeyedvireo,vireo-olivaceus,,REVI,Red-eyed Vireo
+vireo-altiloquus,blackwhiskeredvireo,bkwvir,blackwhiskeredvireo,vireo-altiloquus,,BWVI,Black-whiskered Vireo
+perisoreus-canadensis,grayjay,gryjay,canadajay,perisoreus-canadensis,"Same species, different common name",GRAJ,Gray Jay
+cyanocorax-luxuosus,greenjay,grnjay,greenjay,cyanocorax-luxuosus,"Same species, different scientific name",,
+gymnorhinus-cyanocephalus,pinyonjay,pinjay,pinyonjay,gymnorhinus-cyanocephalus,,PIJA,Pinyon Jay
+cyanocitta-stelleri,stellersjay,stejay,stellersjay,cyanocitta-stelleri,,STJA,Steller's Jay
+cyanocitta-cristata,bluejay,blujay,bluejay,cyanocitta-cristata,,BLJA,Blue Jay
+aphelocoma-californica,californiascrubjay,cowscj1,californiascrubjay,aphelocoma-californica,,CASJ,California Scrub-Jay
+aphelocoma-woodhouseii,woodhousesscrubjay,wooscj2,woodhousesscrubjay,aphelocoma-woodhouseii,,WOSJ,Woodhouse's Scrub-Jay
+aphelocoma-wollweberi,mexicanjay,mexjay4,mexicanjay,aphelocoma-wollweberi,,MEJA,Mexican Jay
+nucifraga-columbiana,clarksnutcracker,clanut,clarksnutcracker,nucifraga-columbiana,,CLNU,Clark's Nutcracker
+pica-hudsonia,blackbilledmagpie,bkbmag1,blackbilledmagpie,pica-hudsonia,,BBMA,Black-billed Magpie
+pica-nuttalli,yellowbilledmagpie,yebmag,yellowbilledmagpie,pica-nuttalli,,YBMA,Yellow-billed Magpie
+corvus-brachyrhynchos,americancrow,amecro,americancrow,corvus-brachyrhynchos,,AMCR,American Crow
+corvus-caurinus,northwesterncrow,norcro,northwesterncrow,corvus-caurinus,,NOCR,Northwestern Crow
+corvus-ossifragus,fishcrow,fiscro,fishcrow,corvus-ossifragus,,FICR,Fish Crow
+corvus-corax,northernraven,comrav,commonraven,corvus-corax,"Same species, different common name",CORA,Common Raven
+alauda-arvensis,eurasianskylark,skylar,eurasianskylark,alauda-arvensis,,EUSK,Eurasian Skylark
+eremophila-alpestris,hornedlark,horlar,hornedlark,eremophila-alpestris,,HOLA,Horned Lark
+progne-subis,purplemartin,purmar,purplemartin,progne-subis,,PUMA,Purple Martin
+tachycineta-bicolor,treeswallow,treswa,treeswallow,tachycineta-bicolor,,TRES,Tree Swallow
+tachycineta-thalassina,violetgreenswallow,vigswa,violetgreenswallow,tachycineta-thalassina,,VGSW,Violet-green Swallow
+riparia-riparia,sandmartin,banswa,bankswallow,riparia-riparia,"Same species, different common name",BANS,Bank Swallow
+petrochelidon-pyrrhonota,americancliffswallow,cliswa,cliffswallow,petrochelidon-pyrrhonota,"Same species, different common name",CLSW,Cliff Swallow
+petrochelidon-fulva,caveswallow,cavswa,caveswallow,petrochelidon-fulva,,CASW,Cave Swallow
+hirundo-rustica,barnswallow,barswa,barnswallow,hirundo-rustica,,BARS,Barn Swallow
+poecile-carolinensis,carolinachickadee,carchi,carolinachickadee,poecile-carolinensis,,CACH,Carolina Chickadee
+poecile-atricapillus,blackcappedchickadee,bkcchi,blackcappedchickadee,poecile-atricapillus,,BCCH,Black-capped Chickadee
+poecile-gambeli,mountainchickadee,mouchi,mountainchickadee,poecile-gambeli,,MOCH,Mountain Chickadee
+poecile-sclateri,mexicanchickadee,mexchi,mexicanchickadee,poecile-sclateri,,MECH,Mexican Chickadee
+poecile-rufescens,chestnutbackedchickadee,chbchi,chestnutbackedchickadee,poecile-rufescens,,CBCH,Chestnut-backed Chickadee
+poecile-hudsonicus,borealchickadee,borchi2,borealchickadee,poecile-hudsonicus,,BOCH,Boreal Chickadee
+baeolophus-wollweberi,bridledtitmouse,britit,bridledtitmouse,baeolophus-wollweberi,,BRTI,Bridled Titmouse
+baeolophus-inornatus,oaktitmouse,oaktit,oaktitmouse,baeolophus-inornatus,,OATI,Oak Titmouse
+baeolophus-ridgwayi,junipertitmouse,juntit1,junipertitmouse,baeolophus-ridgwayi,,JUTI,Juniper Titmouse
+baeolophus-bicolor,tuftedtitmouse,tuftit,tuftedtitmouse,baeolophus-bicolor,,TUTI,Tufted Titmouse
+baeolophus-atricristatus,blackcrestedtitmouse,blctit4,blackcrestedtitmouse,baeolophus-atricristatus,,BCTI,Black-crested Titmouse
+auriparus-flaviceps,verdin,verdin,verdin,auriparus-flaviceps,,VERD,Verdin
+psaltriparus-minimus,americanbushtit,bushti,bushtit,psaltriparus-minimus,"Same species, different common name",BUSH,Bushtit
+sitta-canadensis,redbreastednuthatch,rebnut,redbreastednuthatch,sitta-canadensis,,RBNU,Red-breasted Nuthatch
+sitta-carolinensis,whitebreastednuthatch,whbnut,whitebreastednuthatch,sitta-carolinensis,,WBNU,White-breasted Nuthatch
+sitta-pygmaea,pygmynuthatch,pygnut,pygmynuthatch,sitta-pygmaea,,PYNU,Pygmy Nuthatch
+sitta-pusilla,brownheadednuthatch,bnhnut,brownheadednuthatch,sitta-pusilla,,BHNU,Brown-headed Nuthatch
+certhia-americana,browncreeper,brncre,browncreeper,certhia-americana,,BRCR,Brown Creeper
+salpinctes-obsoletus,rockwren,rocwre,rockwren,salpinctes-obsoletus,,ROWR,Rock Wren
+catherpes-mexicanus,canyonwren,canwre,canyonwren,catherpes-mexicanus,,CANW,Canyon Wren
+troglodytes-aedon,housewren,houwre,housewren,troglodytes-aedon,,HOWR,House Wren
+troglodytes-pacificus,pacificwren,pacwre1,pacificwren,troglodytes-pacificus,,PAWR,Pacific Wren
+troglodytes-hiemalis,winterwren,winwre3,winterwren,troglodytes-hiemalis,,WIWR,Winter Wren
+cistothorus-stellaris,sedgewren,sedwre,sedgewren,cistothorus-stellaris,"Same species, different scientific name",,
+cistothorus-palustris,marshwren,marwre,marshwren,cistothorus-palustris,,MAWR,Marsh Wren
+thryothorus-ludovicianus,carolinawren,carwre,carolinawren,thryothorus-ludovicianus,,CARW,Carolina Wren
+thryomanes-bewickii,bewickswren,bewwre,bewickswren,thryomanes-bewickii,,BEWR,Bewick's Wren
+campylorhynchus-brunneicapillus,cactuswren,cacwre,cactuswren,campylorhynchus-brunneicapillus,,CACW,Cactus Wren
+polioptila-caerulea,bluegraygnatcatcher,buggna,bluegraygnatcatcher,polioptila-caerulea,,BGGN,Blue-gray Gnatcatcher
+polioptila-californica,californiagnatcatcher,calgna,californiagnatcatcher,polioptila-californica,,CAGN,California Gnatcatcher
+polioptila-melanura,blacktailedgnatcatcher,bktgna,blacktailedgnatcatcher,polioptila-melanura,,BTGN,Black-tailed Gnatcatcher
+pycnonotus-cafer,redventedbulbul,revbul,redventedbulbul,pycnonotus-cafer,,RVBU,Red-vented Bulbul
+pycnonotus-jocosus,redwhiskeredbulbul,rewbul,redwhiskeredbulbul,pycnonotus-jocosus,,RWBU,Red-whiskered Bulbul
+regulus-satrapa,goldencrownedkinglet,gockin,goldencrownedkinglet,regulus-satrapa,,GCKI,Golden-crowned Kinglet
+regulus-calendula,rubycrownedkinglet,ruckin,rubycrownedkinglet,regulus-calendula,,RCKI,Ruby-crowned Kinglet
+horornis-diphone,japanesebushwarbler,jabwar,japanesebushwarbler,horornis-diphone,,,
+phylloscopus-borealis,arcticwarbler,arcwar1,arcticwarbler,phylloscopus-borealis,,ARWA,Arctic Warbler
+chamaea-fasciata,wrentit,wrenti,wrentit,chamaea-fasciata,,WREN,Wrentit
+zosterops-japonicus,warblingwhiteeye,jaweye,japanesewhiteeye,zosterops-japonicus,"Same species, different common name",JAWE,Japanese White-eye
+luscinia-svecica,bluethroat,blueth,bluethroat,luscinia-svecica,,BLUE,Bluethroat
+oenanthe-oenanthe,northernwheatear,norwhe,northernwheatear,oenanthe-oenanthe,,NOWH,Northern Wheatear
+sialia-sialis,easternbluebird,easblu,easternbluebird,sialia-sialis,,EABL,Eastern Bluebird
+myadestes-townsendi,townsendssolitaire,towsol,townsendssolitaire,myadestes-townsendi,,TOSO,Townsend's Solitaire
+catharus-fuscescens,veery,veery,veery,catharus-fuscescens,,VEER,Veery
+catharus-minimus,graycheekedthrush,gycthr,graycheekedthrush,catharus-minimus,,GCTH,Gray-cheeked Thrush
+catharus-bicknelli,bicknellsthrush,bicthr,bicknellsthrush,catharus-bicknelli,,BITH,Bicknell's Thrush
+catharus-ustulatus,swainsonsthrush,swathr,swainsonsthrush,catharus-ustulatus,,SWTH,Swainson's Thrush
+catharus-guttatus,hermitthrush,herthr,hermitthrush,catharus-guttatus,,HETH,Hermit Thrush
+hylocichla-mustelina,woodthrush,woothr,woodthrush,hylocichla-mustelina,,WOTH,Wood Thrush
+turdus-migratorius,americanrobin,amerob,americanrobin,turdus-migratorius,,AMRO,American Robin
+ixoreus-naevius,variedthrush,varthr,variedthrush,ixoreus-naevius,,VATH,Varied Thrush
+dumetella-carolinensis,graycatbird,grycat,graycatbird,dumetella-carolinensis,,GRCA,Gray Catbird
+toxostoma-curvirostre,curvebilledthrasher,cubthr,curvebilledthrasher,toxostoma-curvirostre,,CBTH,Curve-billed Thrasher
+toxostoma-rufum,brownthrasher,brnthr,brownthrasher,toxostoma-rufum,,BRTH,Brown Thrasher
+toxostoma-longirostre,longbilledthrasher,lobthr,longbilledthrasher,toxostoma-longirostre,,LBTH,Long-billed Thrasher
+toxostoma-bendirei,bendiresthrasher,benthr,bendiresthrasher,toxostoma-bendirei,,BETH,Bendire's Thrasher
+toxostoma-redivivum,californiathrasher,calthr,californiathrasher,toxostoma-redivivum,,CATH,California Thrasher
+toxostoma-lecontei,lecontesthrasher,lecthr,lecontesthrasher,toxostoma-lecontei,,LCTH,LeConte's Thrasher
+toxostoma-crissale,crissalthrasher,crithr,crissalthrasher,toxostoma-crissale,,CRTH,Crissal Thrasher
+oreoscoptes-montanus,sagethrasher,sagthr,sagethrasher,oreoscoptes-montanus,,SATH,Sage Thrasher
+mimus-polyglottos,northernmockingbird,normoc,northernmockingbird,mimus-polyglottos,,NOMO,Northern Mockingbird
+sturnus-vulgaris,commonstarling,eursta,europeanstarling,sturnus-vulgaris,"Same species, different common name",EUST,European Starling
+acridotheres-tristis,commonmyna,commyn,commonmyna,acridotheres-tristis,,COMY,Common Myna
+bombycilla-garrulus,bohemianwaxwing,bohwax,bohemianwaxwing,bombycilla-garrulus,,BOWA,Bohemian Waxwing
+bombycilla-cedrorum,cedarwaxwing,cedwax,cedarwaxwing,bombycilla-cedrorum,,CEDW,Cedar Waxwing
+phainopepla-nitens,phainopepla,phaino,phainopepla,phainopepla-nitens,,PHAI,Phainopepla
+peucedramus-taeniatus,olivewarbler,oliwar,olivewarbler,peucedramus-taeniatus,,OLWA,Olive Warbler
+estrilda-astrild,commonwaxbill,comwax,commonwaxbill,estrilda-astrild,,COMW,Common Waxbill
+passer-domesticus,housesparrow,houspa,housesparrow,passer-domesticus,,HOSP,House Sparrow
+passer-montanus,eurasiantreesparrow,eutspa,eurasiantreesparrow,passer-montanus,,ETSP,Eurasian Tree Sparrow
+motacilla-tschutschensis,easternyellowwagtail,eaywag,easternyellowwagtail,motacilla-tschutschensis,,EYWA,Eastern Yellow Wagtail
+anthus-rubescens,buffbelliedpipit,amepip,americanpipit,anthus-rubescens,"Same species, different common name",AMPI,American Pipit
+anthus-spragueii,spraguespipit,sprpip,spraguespipit,anthus-spragueii,,SPPI,Sprague's Pipit
+hesperiphona-vespertina,eveninggrosbeak,evegro,eveninggrosbeak,hesperiphona-vespertina,"Same species, different scientific name",,
+himatione-sanguinea,apapane,apapan,apapane,himatione-sanguinea,,APAP,Apapane
+pinicola-enucleator,pinegrosbeak,pingro,pinegrosbeak,pinicola-enucleator,,PIGR,Pine Grosbeak
+haemorhous-mexicanus,housefinch,houfin,housefinch,haemorhous-mexicanus,,HOFI,House Finch
+haemorhous-purpureus,purplefinch,purfin,purplefinch,haemorhous-purpureus,,PUFI,Purple Finch
+haemorhous-cassinii,cassinsfinch,casfin,cassinsfinch,haemorhous-cassinii,,CAFI,Cassin's Finch
+crithagra-mozambica,yellowfrontedcanary,yefcan,yellowfrontedcanary,crithagra-mozambica,,YFCA,Yellow-fronted Canary
+acanthis-flammea,commonredpoll,comred,commonredpoll,acanthis-flammea,,CORE,Common Redpoll
+acanthis-hornemanni,arcticredpoll,hoared,hoaryredpoll,acanthis-hornemanni,"Same species, different common name",HORE,Hoary Redpoll
+loxia-curvirostra,redcrossbill,redcro,redcrossbill,loxia-curvirostra,,RECR,Red Crossbill
+loxia-leucoptera,twobarredcrossbill,whwcro,whitewingedcrossbill,loxia-leucoptera,"Same species, different common name",WWCR,White-winged Crossbill
+spinus-pinus,pinesiskin,pinsis,pinesiskin,spinus-pinus,,PISI,Pine Siskin
+spinus-psaltria,lessergoldfinch,lesgol,lessergoldfinch,spinus-psaltria,,LEGO,Lesser Goldfinch
+spinus-lawrencei,lawrencesgoldfinch,lawgol,lawrencesgoldfinch,spinus-lawrencei,,LAGO,Lawrence's Goldfinch
+spinus-tristis,americangoldfinch,amegfi,americangoldfinch,spinus-tristis,,AMGO,American Goldfinch
+calcarius-lapponicus,laplandlongspur,laplon,laplandlongspur,calcarius-lapponicus,,LALO,Lapland Longspur
+calcarius-ornatus,chestnutcollaredlongspur,chclon,chestnutcollaredlongspur,calcarius-ornatus,,CCLO,Chestnut-collared Longspur
+plectrophenax-nivalis,snowbunting,snobun,snowbunting,plectrophenax-nivalis,,SNBU,Snow Bunting
+arremonops-rufivirgatus,olivesparrow,olispa,olivesparrow,arremonops-rufivirgatus,,OLSP,Olive Sparrow
+pipilo-chlorurus,greentailedtowhee,gnttow,greentailedtowhee,pipilo-chlorurus,,GTTO,Green-tailed Towhee
+pipilo-maculatus,spottedtowhee,spotow,spottedtowhee,pipilo-maculatus,,SPTO,Spotted Towhee
+pipilo-erythrophthalmus,easterntowhee,eastow,easterntowhee,pipilo-erythrophthalmus,,EATO,Eastern Towhee
+aimophila-ruficeps,rufouscrownedsparrow,rucspa,rufouscrownedsparrow,aimophila-ruficeps,,RCSP,Rufous-crowned Sparrow
+melozone-fusca,canyontowhee,cantow,canyontowhee,melozone-fusca,,CANT,Canyon Towhee
+melozone-crissalis,californiatowhee,caltow,californiatowhee,melozone-crissalis,,CALT,California Towhee
+melozone-aberti,abertstowhee,abetow,abertstowhee,melozone-aberti,,ABTO,Abert's Towhee
+peucaea-carpalis,rufouswingedsparrow,ruwspa,rufouswingedsparrow,peucaea-carpalis,,RWSP,Rufous-winged Sparrow
+peucaea-botterii,botterissparrow,botspa,botterissparrow,peucaea-botterii,,BOSP,Botteri's Sparrow
+peucaea-cassinii,cassinssparrow,casspa,cassinssparrow,peucaea-cassinii,,CASP,Cassin's Sparrow
+peucaea-aestivalis,bachmanssparrow,bacspa,bachmanssparrow,peucaea-aestivalis,,BACS,Bachman's Sparrow
+spizelloides-arborea,americantreesparrow,amtspa,americantreesparrow,spizelloides-arborea,,ATSP,American Tree Sparrow
+spizella-passerina,chippingsparrow,chispa,chippingsparrow,spizella-passerina,,CHSP,Chipping Sparrow
+spizella-pallida,claycoloredsparrow,clcspa,claycoloredsparrow,spizella-pallida,,CCSP,Clay-colored Sparrow
+spizella-breweri,brewerssparrow,brespa,brewerssparrow,spizella-breweri,,BRSP,Brewer's Sparrow
+spizella-pusilla,fieldsparrow,fiespa,fieldsparrow,spizella-pusilla,,FISP,Field Sparrow
+spizella-atrogularis,blackchinnedsparrow,bkcspa,blackchinnedsparrow,spizella-atrogularis,,BCSP,Black-chinned Sparrow
+pooecetes-gramineus,vespersparrow,vesspa,vespersparrow,pooecetes-gramineus,,VESP,Vesper Sparrow
+chondestes-grammacus,larksparrow,larspa,larksparrow,chondestes-grammacus,,LASP,Lark Sparrow
+amphispiza-bilineata,blackthroatedsparrow,bktspa,blackthroatedsparrow,amphispiza-bilineata,,BTSP,Black-throated Sparrow
+artemisiospiza-nevadensis,sagebrushsparrow,sagspa1,sagebrushsparrow,artemisiospiza-nevadensis,,SABS,Sagebrush Sparrow
+artemisiospiza-belli,bellssparrow,belspa2,bellssparrow,artemisiospiza-belli,,BESP,Bell's Sparrow
+calamospiza-melanocorys,larkbunting,larbun,larkbunting,calamospiza-melanocorys,,LARB,Lark Bunting
+passerculus-sandwichensis,savannahsparrow,savspa,savannahsparrow,passerculus-sandwichensis,,SAVS,Savannah Sparrow
+ammodramus-savannarum,grasshoppersparrow,graspa,grasshoppersparrow,ammodramus-savannarum,,GRSP,Grasshopper Sparrow
+ammodramus-bairdii,bairdssparrow,baispa,bairdssparrow,ammodramus-bairdii,"Same species, different scientific name",BAIS,Baird's Sparrow
+ammodramus-henslowii,henslowssparrow,henspa,henslowssparrow,ammodramus-henslowii,"Same species, different scientific name",HESP,Henslow's Sparrow
+ammodramus-leconteii,lecontessparrow,lecspa,lecontessparrow,ammodramus-leconteii,"Same species, different scientific name",LCSP,LeConte's Sparrow
+ammodramus-maritimus,seasidesparrow,seaspa,seasidesparrow,ammodramus-maritimus,"Same species, different scientific name",SESP,Seaside Sparrow
+ammodramus-nelsoni,nelsonssparrow,nstspa,nelsonssparrow,ammodramus-nelsoni,"Same species, different scientific name",NESP,Nelson's Sparrow
+passerella-iliaca,redfoxsparrow,foxspa,foxsparrow,,XC split with multiple species in the ABA area; BirdNet's name for the entire complex (passerella-iliaca) refers to one of the ABA XC subspecies,FOSP,Fox Sparrow
+melospiza-melodia,songsparrow,sonspa,songsparrow,melospiza-melodia,,SOSP,Song Sparrow
+melospiza-lincolnii,lincolnssparrow,linspa,lincolnssparrow,melospiza-lincolnii,,LISP,Lincoln's Sparrow
+melospiza-georgiana,swampsparrow,swaspa,swampsparrow,melospiza-georgiana,,SWSP,Swamp Sparrow
+zonotrichia-albicollis,whitethroatedsparrow,whtspa,whitethroatedsparrow,zonotrichia-albicollis,,WTSP,White-throated Sparrow
+zonotrichia-querula,harrisssparrow,harspa,harrisssparrow,zonotrichia-querula,,HASP,Harris's Sparrow
+zonotrichia-leucophrys,whitecrownedsparrow,whcspa,whitecrownedsparrow,zonotrichia-leucophrys,,WCSP,White-crowned Sparrow
+zonotrichia-atricapilla,goldencrownedsparrow,gocspa,goldencrownedsparrow,zonotrichia-atricapilla,,GCSP,Golden-crowned Sparrow
+junco-hyemalis,darkeyedjunco,daejun,darkeyedjunco,junco-hyemalis,,DEJU,Dark-eyed Junco
+junco-phaeonotus,yelloweyedjunco,yeejun,yelloweyedjunco,junco-phaeonotus,,YEJU,Yellow-eyed Junco
+icteria-virens,yellowbreastedchat,yebcha,yellowbreastedchat,icteria-virens,,YBCH,Yellow-breasted Chat
+xanthocephalus-xanthocephalus,yellowheadedblackbird,yehbla,yellowheadedblackbird,xanthocephalus-xanthocephalus,,YHBL,Yellow-headed Blackbird
+dolichonyx-oryzivorus,bobolink,boboli,bobolink,dolichonyx-oryzivorus,,BOBO,Bobolink
+sturnella-magna,easternmeadowlark,easmea,easternmeadowlark,sturnella-magna,,EAME,Eastern Meadowlark
+sturnella-neglecta,westernmeadowlark,wesmea,westernmeadowlark,sturnella-neglecta,,WEME,Western Meadowlark
+icterus-spurius,orchardoriole,orcori,orchardoriole,icterus-spurius,,OROR,Orchard Oriole
+icterus-cucullatus,hoodedoriole,hooori,hoodedoriole,icterus-cucullatus,,HOOR,Hooded Oriole
+icterus-bullockii,bullocksoriole,bulori,bullocksoriole,icterus-bullockii,,BUOR,Bullock's Oriole
+icterus-gularis,altamiraoriole,altori,altamiraoriole,icterus-gularis,,ALOR,Altamira Oriole
+icterus-graduacauda,audubonsoriole,audori,audubonsoriole,icterus-graduacauda,,AUOR,Audubon's Oriole
+icterus-galbula,baltimoreoriole,balori,baltimoreoriole,icterus-galbula,,BAOR,Baltimore Oriole
+icterus-parisorum,scottsoriole,scoori,scottsoriole,icterus-parisorum,,SCOR,Scott's Oriole
+agelaius-phoeniceus,redwingedblackbird,rewbla,redwingedblackbird,agelaius-phoeniceus,,RWBL,Red-winged Blackbird
+agelaius-tricolor,tricoloredblackbird,tribla,tricoloredblackbird,agelaius-tricolor,,TRBL,Tricolored Blackbird
+molothrus-ater,brownheadedcowbird,bnhcow,brownheadedcowbird,molothrus-ater,,BHCO,Brown-headed Cowbird
+euphagus-carolinus,rustyblackbird,rusbla,rustyblackbird,euphagus-carolinus,,RUBL,Rusty Blackbird
+euphagus-cyanocephalus,brewersblackbird,brebla,brewersblackbird,euphagus-cyanocephalus,,BRBL,Brewer's Blackbird
+quiscalus-quiscula,commongrackle,comgra,commongrackle,quiscalus-quiscula,,COGR,Common Grackle
+quiscalus-major,boattailedgrackle,botgra,boattailedgrackle,quiscalus-major,,BTGR,Boat-tailed Grackle
+quiscalus-mexicanus,greattailedgrackle,grtgra,greattailedgrackle,quiscalus-mexicanus,,GTGR,Great-tailed Grackle
+seiurus-aurocapilla,ovenbird,ovenbi1,ovenbird,seiurus-aurocapilla,,OVEN,Ovenbird
+helmitheros-vermivorum,wormeatingwarbler,woewar1,wormeatingwarbler,helmitheros-vermivorum,,WEWA,Worm-eating Warbler
+parkesia-motacilla,louisianawaterthrush,louwat,louisianawaterthrush,parkesia-motacilla,,LOWA,Louisiana Waterthrush
+parkesia-noveboracensis,northernwaterthrush,norwat,northernwaterthrush,parkesia-noveboracensis,,NOWA,Northern Waterthrush
+vermivora-chrysoptera,goldenwingedwarbler,gowwar,goldenwingedwarbler,vermivora-chrysoptera,,GWWA,Golden-winged Warbler
+vermivora-cyanoptera,bluewingedwarbler,buwwar,bluewingedwarbler,vermivora-cyanoptera,,BWWA,Blue-winged Warbler
+mniotilta-varia,blackandwhitewarbler,bawwar,blackandwhitewarbler,mniotilta-varia,,BAWW,Black-and-white Warbler
+protonotaria-citrea,prothonotarywarbler,prowar,prothonotarywarbler,protonotaria-citrea,,PROW,Prothonotary Warbler
+limnothlypis-swainsonii,swainsonswarbler,swawar,swainsonswarbler,limnothlypis-swainsonii,,SWWA,Swainson's Warbler
+leiothlypis-peregrina,tennesseewarbler,tenwar,tennesseewarbler,leiothlypis-peregrina,"Same species, different scientific name",,
+leiothlypis-celata,orangecrownedwarbler,orcwar,orangecrownedwarbler,leiothlypis-celata,"Same species, different scientific name",,
+leiothlypis-luciae,lucyswarbler,lucwar,lucyswarbler,leiothlypis-luciae,"Same species, different scientific name",,
+leiothlypis-ruficapilla,nashvillewarbler,naswar,nashvillewarbler,leiothlypis-ruficapilla,"Same species, different scientific name",,
+leiothlypis-virginiae,virginiaswarbler,virwar,virginiaswarbler,leiothlypis-virginiae,"Same species, different scientific name",,
+oporornis-agilis,connecticutwarbler,conwar,connecticutwarbler,oporornis-agilis,,CONW,Connecticut Warbler
+geothlypis-tolmiei,macgillivrayswarbler,macwar,macgillivrayswarbler,geothlypis-tolmiei,,MGWA,MacGillivray's Warbler
+geothlypis-philadelphia,mourningwarbler,mouwar,mourningwarbler,geothlypis-philadelphia,,MOWA,Mourning Warbler
+geothlypis-formosa,kentuckywarbler,kenwar,kentuckywarbler,geothlypis-formosa,,KEWA,Kentucky Warbler
+geothlypis-trichas,commonyellowthroat,comyel,commonyellowthroat,geothlypis-trichas,,COYE,Common Yellowthroat
+setophaga-citrina,hoodedwarbler,hoowar,hoodedwarbler,setophaga-citrina,,HOWA,Hooded Warbler
+setophaga-ruticilla,americanredstart,amered,americanredstart,setophaga-ruticilla,,AMRE,American Redstart
+setophaga-kirtlandii,kirtlandswarbler,kirwar,kirtlandswarbler,setophaga-kirtlandii,,KIWA,Kirtland's Warbler
+setophaga-tigrina,capemaywarbler,camwar,capemaywarbler,setophaga-tigrina,,CMWA,Cape May Warbler
+setophaga-cerulea,ceruleanwarbler,cerwar,ceruleanwarbler,setophaga-cerulea,,CERW,Cerulean Warbler
+setophaga-americana,northernparula,norpar,northernparula,setophaga-americana,,NOPA,Northern Parula
+setophaga-magnolia,magnoliawarbler,magwar,magnoliawarbler,setophaga-magnolia,,MAWA,Magnolia Warbler
+setophaga-castanea,baybreastedwarbler,babwar,baybreastedwarbler,setophaga-castanea,,BBWA,Bay-breasted Warbler
+setophaga-fusca,blackburnianwarbler,bkbwar,blackburnianwarbler,setophaga-fusca,,BLBW,Blackburnian Warbler
+setophaga-aestiva,americanyellowwarbler,yelwar,yellowwarbler,setophaga-aestiva,XC split with only one species in the ABA area; BirdNet's name for the complex (setophaga-petechia) refers to the XC species INSIDE the ABA area,,
+setophaga-pensylvanica,chestnutsidedwarbler,chswar,chestnutsidedwarbler,setophaga-pensylvanica,,CSWA,Chestnut-sided Warbler
+setophaga-striata,blackpollwarbler,bkpwar,blackpollwarbler,setophaga-striata,,BLPW,Blackpoll Warbler
+setophaga-caerulescens,blackthroatedbluewarbler,btbwar,blackthroatedbluewarbler,setophaga-caerulescens,,BTBW,Black-throated Blue Warbler
+setophaga-palmarum,palmwarbler,palwar,palmwarbler,setophaga-palmarum,,PAWA,Palm Warbler
+setophaga-pinus,pinewarbler,pinwar,pinewarbler,setophaga-pinus,,PIWA,Pine Warbler
+setophaga-coronata,myrtlewarbler,yerwar,yellowrumpedwarbler,,XC split with multiple species in the ABA area; BirdNet's name for the complex (setophaga-coronata) refers to one of the XC subspecies,YRWA,Yellow-rumped Warbler
+setophaga-dominica,yellowthroatedwarbler,yetwar,yellowthroatedwarbler,setophaga-dominica,,YTWA,Yellow-throated Warbler
+setophaga-discolor,prairiewarbler,prawar,prairiewarbler,setophaga-discolor,,PRAW,Prairie Warbler
+setophaga-graciae,graceswarbler,grawar,graceswarbler,setophaga-graciae,,GRWA,Grace's Warbler
+setophaga-nigrescens,blackthroatedgraywarbler,btywar,blackthroatedgraywarbler,setophaga-nigrescens,,BTYW,Black-throated Gray Warbler
+setophaga-townsendi,townsendswarbler,towwar,townsendswarbler,setophaga-townsendi,,TOWA,Townsend's Warbler
+setophaga-occidentalis,hermitwarbler,herwar,hermitwarbler,setophaga-occidentalis,,HEWA,Hermit Warbler
+setophaga-virens,blackthroatedgreenwarbler,btnwar,blackthroatedgreenwarbler,setophaga-virens,,BTNW,Black-throated Green Warbler
+cardellina-canadensis,canadawarbler,canwar,canadawarbler,cardellina-canadensis,,CAWA,Canada Warbler
+cardellina-pusilla,wilsonswarbler,wlswar,wilsonswarbler,cardellina-pusilla,,WIWA,Wilson's Warbler
+cardellina-rubrifrons,redfacedwarbler,refwar,redfacedwarbler,cardellina-rubrifrons,,RFWA,Red-faced Warbler
+myioborus-pictus,paintedwhitestart,paired,paintedredstart,myioborus-pictus,"Same species, different common name",PARE,Painted Redstart
+piranga-hepatica,hepatictanager,,,,XC split with only one species in the ABA area; BirdNet's name for the complex (piranga-flava) refers to the XC species outside the ABA area,,
+piranga-rubra,summertanager,sumtan,summertanager,piranga-rubra,,SUTA,Summer Tanager
+piranga-olivacea,scarlettanager,scatan,scarlettanager,piranga-olivacea,,SCTA,Scarlet Tanager
+piranga-ludoviciana,westerntanager,westan,westerntanager,piranga-ludoviciana,,WETA,Western Tanager
+cardinalis-cardinalis,northerncardinal,norcar,northerncardinal,cardinalis-cardinalis,,NOCA,Northern Cardinal
+cardinalis-sinuatus,pyrrhuloxia,pyrrhu,pyrrhuloxia,cardinalis-sinuatus,,PYRR,Pyrrhuloxia
+pheucticus-ludovicianus,rosebreastedgrosbeak,robgro,rosebreastedgrosbeak,pheucticus-ludovicianus,,RBGR,Rose-breasted Grosbeak
+pheucticus-melanocephalus,blackheadedgrosbeak,bkhgro,blackheadedgrosbeak,pheucticus-melanocephalus,,BHGR,Black-headed Grosbeak
+passerina-caerulea,bluegrosbeak,blugrb1,bluegrosbeak,passerina-caerulea,,BLGR,Blue Grosbeak
+passerina-amoena,lazulibunting,lazbun,lazulibunting,passerina-amoena,,LAZB,Lazuli Bunting
+passerina-cyanea,indigobunting,indbun,indigobunting,passerina-cyanea,,INBU,Indigo Bunting
+passerina-versicolor,variedbunting,varbun,variedbunting,passerina-versicolor,,VABU,Varied Bunting
+passerina-ciris,paintedbunting,paibun,paintedbunting,passerina-ciris,,PABU,Painted Bunting
+spiza-americana,dickcissel,dickci,dickcissel,spiza-americana,,DICK,Dickcissel
+paroaria-coronata,redcrestedcardinal,reccar,redcrestedcardinal,paroaria-coronata,,RCCA,Red-crested Cardinal
+sicalis-flaveola,saffronfinch,saffin,saffronfinch,sicalis-flaveola,,SAFI,Saffron Finch
+passerella-unalaschcensis,sootyfoxsparrow,,,,XC split with multiple species in the ABA area; BirdNet's name for the entire complex (passerella-iliaca) refers to one of the ABA XC subspecies,,
+passerella-schistacea,slatecoloredfoxsparrow,,,,XC split with multiple species in the ABA area; BirdNet's name for the entire complex (passerella-iliaca) refers to one of the ABA XC subspecies,,
+passerella-megarhyncha,thickbilledfoxsparrow,,,,XC split with multiple species in the ABA area; BirdNet's name for the entire complex (passerella-iliaca) refers to one of the ABA XC subspecies,,
+setophaga-auduboni,audubonswarbler,,,,XC split with multiple species in the ABA area; BirdNet's name for the complex (setophaga-coronata) refers to one of the XC ABA subspecies,,
