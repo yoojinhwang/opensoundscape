@@ -258,7 +258,7 @@ class Spectrogram:
         shape=None: tuple of image dimensions, eg (224,224)
         mode="RGB": RGB for 3-channel color or "L" for 1-channel grayscale
         spec_range=[-100,-20]: the lowest and highest possible values in the spectrogram
-        
+            
         returns: Pillow Image
         """
         from PIL import Image
