@@ -1,9 +1,9 @@
 import numpy as np
 import pandas as pd
+import os.path
 
-species_table_path='/lacie/projects1/Sam-Lapp/OPSO/resources/species_table.csv'
-# print(f'reading species translations from table at {species_table_path}')
-    
+path_to_package = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+species_table_path=os.path.join(path_to_package,'resources/species_table.csv')    
 
 def get_species_list():
     species_table = pd.read_csv(species_table_path)
