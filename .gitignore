@@ -5,3 +5,5 @@ dist/
 __pycache__/
 doc/_build/
 *.ipynb_checkpoints/
+.DS_Store
+opensoundscape/lib/
