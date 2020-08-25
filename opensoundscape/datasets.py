@@ -198,27 +198,30 @@ class SingleTargetAudioDataset(torch.utils.data.Dataset):
     from the module `opensoundscape.torch.train`.
 
     Input:
-        df: A DataFrame with a column containing audio files
-        label_dict: a dictionary mapping numeric labels to class names,
+        df:                 A DataFrame with a column containing audio files
+        label_dict:         A dictionary mapping numeric labels to class names,
             - for example: {0:'American Robin',1:'Northern Cardinal'}
             - pass `None` if you wish to retain numeric labels
-        filename_column: The column in the DataFrame which contains paths to data [default: Destination]
-        from_audio: Whether the raw dataset is audio [default: True]
-        label_column: The column with numeric labels if present [default: None]
-        height: Height for resulting Tensor [default: 224]
-        width: Width for resulting Tensor [default: 224]
-        add_noise: Apply RandomAffine and ColorJitter filters [default: False]
-        save_dir: Save images to a directory [default: None]
+        filename_column:    The column in the DataFrame which contains paths to data [default: Destination]
+        from_audio:         Whether the raw dataset is audio [default: True]
+        label_column:       The column with numeric labels if present [default: None]
+    *** offset_column:      The column with the offset of the clip from 0.0 ***
+    *** duration_column:    The column with the duration of the clip starting from the offset ***
+    *** trim_clips:         Extract the desired section of the clip determined by the offset and duration ***
+        height:             Height for resulting Tensor [default: 224]
+        width:              Width for resulting Tensor [default: 224]
+        add_noise:          Apply RandomAffine and ColorJitter filters [default: False]
+        save_dir:           Save images to a directory [default: None]
         random_trim_length: Extract a clip of this many seconds of audio starting at a random time
-            If None, the original clip will be used [default: None]
+            - If None, the original clip will be used [default: None]
         extend_short_clips: If a file to be overlaid or trimmed from is too short,
             extend it to the desired length by repeating it. [default: False]
-        max_overlay_num: The maximum number of additional images to overlay, each with probability overlay_prob [default: 0]
-        overlay_prob: Probability of an image from a different class being overlayed (combined as a weighted sum)
+        max_overlay_num:    The maximum number of additional images to overlay, each with probability overlay_prob [default: 0]
+        overlay_prob:       Probability of an image from a different class being overlayed (combined as a weighted sum)
             on the training image. typical values: 0, 0.66 [default: 0.2]
-        overlay_weight: The weight given to the overlaid image during augmentation.
-            When 'random', will randomly select a different weight between 0.2 and 0.5 for each overlay
-            When not 'random', should be a float between 0 and 1 [default: 'random']
+        overlay_weight:     The weight given to the overlaid image during augmentation.
+            - When 'random', will randomly select a different weight between 0.2 and 0.5 for each overlay
+            - When not 'random', should be a float between 0 and 1 [default: 'random']
 
     Output:
         Dictionary:
@@ -234,6 +237,9 @@ class SingleTargetAudioDataset(torch.utils.data.Dataset):
         filename_column="Destination",
         from_audio=True,
         label_column=None,
+        offset_column=None,     # new
+        duration_column=None,   # new
+        trim_clips=False,       # new
         height=224,
         width=224,
         add_noise=False,
@@ -248,6 +254,9 @@ class SingleTargetAudioDataset(torch.utils.data.Dataset):
         self.filename_column = filename_column
         self.from_audio = from_audio
         self.label_column = label_column
+        self.offset_column = offset_column      # new
+        self.duration_column = duration_column  # new
+        self.trim_clips = trim_clips            # new
         self.height = height
         self.width = width
         self.save_dir = save_dir
@@ -293,6 +302,17 @@ class SingleTargetAudioDataset(torch.utils.data.Dataset):
         extra_time = audio_length - self.random_trim_length
         start_time = np.random.uniform() * extra_time
         return audio.trim(start_time, start_time + self.random_trim_length)
+
+    def audio_trim(self, audio, clip_duration, audio_offset, audio_path):
+        total_length = len(audio.samples) / audio.sample_rate
+        if (audio_offset + self.clip_duration) > total_length:
+            if not self.extend_short_clips:
+                raise ValueError(
+                    f"the length of the original file ({total_length} sec) was less than the length to extract ({clip_duration} sec) starting at ({audio_offset} set) for the file {audio_path}. To extend short clips, use extend_short_clips=True"
+                )
+            else:
+                return audio.extend(self.random_trim_length)
+        return audio.trim(start_time, audio_offset + audio_duration)
 
     def image_from_audio(self, audio, mode="RGB"):
         """ Create a PIL image from audio
@@ -360,6 +380,9 @@ class SingleTargetAudioDataset(torch.utils.data.Dataset):
         audio_length = len(audio.samples) / audio.sample_rate
         if self.random_trim_length is not None:
             audio = self.random_audio_trim(audio, audio_length, audio_path)
+            audio_length = self.random_trim_length
+        if self.trim_clips:
+            audio = self.audio_trim(audio, audio_length, audio_path)
             audio_length = self.random_trim_length
         image = self.image_from_audio(audio, mode="L")
 

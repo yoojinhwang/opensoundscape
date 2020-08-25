@@ -8,3 +8,4 @@ doc/_build/
 .DS_Store
 opensoundscape/lib/
 opensoundscape-env/
+data/
