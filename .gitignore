@@ -9,3 +9,5 @@ doc/_build/
 opensoundscape/lib/
 opensoundscape-env/
 data/
+output/
+model_train_results/

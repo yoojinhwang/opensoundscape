@@ -10,6 +10,7 @@ import torch
 from torchvision import transforms
 from PIL import Image, ImageFilter
 from time import time
+from IPython.core.debugger import set_trace
 
 from opensoundscape.audio import Audio
 from opensoundscape.spectrogram import Spectrogram
@@ -305,14 +306,12 @@ class SingleTargetAudioDataset(torch.utils.data.Dataset):
 
     def audio_trim(self, audio, clip_duration, audio_offset, audio_path):
         total_length = len(audio.samples) / audio.sample_rate
-        if (audio_offset + self.clip_duration) > total_length:
-            if not self.extend_short_clips:
-                raise ValueError(
-                    f"the length of the original file ({total_length} sec) was less than the length to extract ({clip_duration} sec) starting at ({audio_offset} set) for the file {audio_path}. To extend short clips, use extend_short_clips=True"
-                )
-            else:
-                return audio.extend(self.random_trim_length)
-        return audio.trim(start_time, audio_offset + audio_duration)
+        # fix rounding causing equal values to appear different
+        if ((audio_offset + clip_duration) - total_length) > 0.000001:
+            raise ValueError(
+                f"the length of the original file ({total_length} sec) was less than the length to extract ({clip_duration} sec) starting at ({audio_offset} sec) for the file {audio_path}. To extend short clips, use extend_short_clips=True"
+            )
+        return audio.trim(audio_offset, audio_offset + clip_duration)
 
     def image_from_audio(self, audio, mode="RGB"):
         """ Create a PIL image from audio
@@ -374,16 +373,24 @@ class SingleTargetAudioDataset(torch.utils.data.Dataset):
         row = self.df.iloc[item_idx]
         audio_path = Path(row[self.filename_column])
         audio = Audio.from_file(audio_path)
+        audio_length = len(audio.samples) / audio.sample_rate
 
         # trim to desired length if needed
         # (if self.random_trim_length is specified, select a clip of that length at random from the original file)
-        audio_length = len(audio.samples) / audio.sample_rate
         if self.random_trim_length is not None:
             audio = self.random_audio_trim(audio, audio_length, audio_path)
             audio_length = self.random_trim_length
+
+        # trim clip by offset and duration if desired
         if self.trim_clips:
-            audio = self.audio_trim(audio, audio_length, audio_path)
-            audio_length = self.random_trim_length
+            offset = row[self.offset_column]
+            duration = row[self.duration_column]
+
+            # new audio is trimmed by offset and duration
+            audio = self.audio_trim(audio, duration, offset, audio_path)
+            audio_length = duration
+
+        # set spectro
         image = self.image_from_audio(audio, mode="L")
 
         # add a blended/overlayed image from another class directly on top
